@@ -1,0 +1,7 @@
+---
+title: "Análisis agronómicos y recomendaciones"
+listing: 
+  contents: "suelo/"
+  type: grid
+---
+

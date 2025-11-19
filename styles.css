@@ -1,0 +1,21 @@
+/* styles.css */
+
+/* Color del texto general (párrafos, listas, etc.) a negro.
+   Esto sobrescribe el color azul que habías puesto previamente para el body. */
+body {
+  color: #31C950;
+}
+
+/* Color para los títulos principales (H1) a negro */
+h1 {
+  color: #31C950;
+}
+
+/* Color para los subtítulos (H2, H3, H4, H5, H6) a verde oscuro */
+h2, h3, h4, h5, h6 {
+  color: #31C950; /* Este es un código hexadecimal para un verde oscuro profundo (DarkGreen) */
+  /* También podrías probar con:
+     color: #228B22;  ForestGreen
+     color: #0A5C36;  Un verde más apagado y oscuro
+  */
+}

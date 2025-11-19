@@ -1,0 +1,60 @@
+---
+title: "Fertirrigación 3"
+description: "Primer análisis"
+author: "CIBS Fundo San Rocco"
+date: "06/08/2025"
+image: "https://i.postimg.cc/qq8jHnWg/vainilla.jpg"
+toc: false
+lang: es
+fontsize: 12pt
+categories:
+  - AGRONOMÍA
+  - ABONOS ORGÁNICOS
+---
+
+
+<div style="margin: 20px 0;">
+<audio controls style="width: 100%; max-width: 500px;" 
+       controlsList="nodownload" 
+       oncontextmenu="return false;">
+  <source src="audio/au3.wav" type="audio/wav">
+</audio>
+</div>
+
+
+# Potasio (K) en la Fertirrigación
+
+El Potasio **(K)** es un macronutriente esencial que se encuentra siempre en la planta como el ion catiónico **$\text{K}^+$**, sin sufrir modificaciones. Es fundamental para la calidad del fruto (color, licopeno) y el rendimiento.
+
+## 1. Interacción del Potasio con el Suelo: Fijación Lenta
+
+El $\text{K}^+$ en el suelo se divide en tres partes: en la solución del suelo, en las arcillas (intercambiable) y una parte que se "fija" en el espacio interlaminar de las arcillas (especialmente en la arcilla Illita).
+
+-   **Movimiento:** El intercambio entre $\text{K}^+$ de la solución y $\text{K}^+$ adsorbido es rápido, pero la **"liberación"** de K fijado es muy **lenta**.
+-   **Impacto en Fertirriego:** La tasa de liberación del $\text{K}^+$ fijado no puede satisfacer la demanda de una planta en crecimiento, especialmente en el riego por goteo, donde el volumen de raíces activas es pequeño. Por lo tanto, se necesita un **suministro continuo** de $\text{K}^+$ a través del goteo.
+
+## 2. Movimiento y Absorción
+
+-   **Movimiento del $\text{K}^+$:** La distribución exacta del $\text{K}^+$ en el bulbo de mojado es poco importante. A diferencia del P, el $\text{K}^+$ se mueve mejor en el suelo (aunque menos que el Nitrógeno). Las raíces son tan eficientes que si encuentran $\text{K}^+$, lo absorben fácilmente.
+-   **Demanda:** El Potasio es exportado en grandes cantidades del campo con la cosecha de frutas, hortalizas, tubérculos y hojas verdes, por lo que su suministro continuo es crucial para la **calidad** y el **rendimiento**.
+
+::: {.callout-tip icon="true"}
+## ✅ Clave para el Cultivo y la Calidad
+El suministro continuo de $\text{K}$ mediante fertirrigación mejora significativamente la **calidad del fruto**. Por ejemplo, aumenta el contenido de **licopeno** (color y calidad) en el tomate.
+:::
+
+## 3. Fertilizantes Potásicos Comunes en Fertirrigación
+
+Existen cuatro sales solubles principales para el goteo:
+
+| Fertilizante | Fórmula Química | Ventaja Clave | Desventaja / Precaución |
+| :--- | :--- | :--- | :--- |
+| **Nitrato de Potasio** | $\text{KNO}_3$ | Óptima relación $\text{K/N}$. Muy soluble. Ideal para alta calidad. | Puede precipitar en el tanque a bajas temperaturas (noche). |
+| **Sulfato de Potasio** | $\text{K}_2\text{SO}_4$ | Apto para suelos/aguas con poco Calcio (Ca). | Requiere fuente adicional de N. Puede requerir cuidado en aguas duras (por Sulfato). |
+| **Fosfato Monopotásico** | $\text{KH}_2\text{PO}_4$ | Principalmente una fuente de $\text{P}$ (Fósforo), pero aporta $\text{K}$. Bajo residuo salino. | La cantidad de $\text{P}$ aportada es baja. |
+| **Cloruro de Potasio** | $\text{KCl}$ | Fuente de $\text{K}$ más barata y abundante. | Requiere fuente adicional de N. El Cloro **(Cl)** puede afectar la calidad en cultivos sensibles (ej. tabaco) por ser un anión acompañante. |
+
+::: {.callout-note icon="true"}
+## ⚙️ Uso Práctico del $\text{KNO}_3$
+El **Nitrato de Potasio** $(\text{KNO}_3)$ satisface plenamente las necesidades de **$\text{K}$** y parcialmente las de **$\text{N}$** con una sola aplicación, siendo la opción preferida para cultivos de alto valor y calidad *premium*.
+:::

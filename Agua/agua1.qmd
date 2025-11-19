@@ -1,0 +1,62 @@
+---
+title: "Fertirrigación 2"
+description: "Primer análisis"
+author: "CIBS Fundo San Rocco"
+date: "06/08/2025"
+image: "https://i.postimg.cc/qq8jHnWg/vainilla.jpg"
+toc: false
+lang: es
+fontsize: 12pt
+categories:
+  - AGRONOMÍA
+  - ABONOS ORGÁNICOS
+---
+
+
+<div style="margin: 20px 0;">
+<audio controls style="width: 100%; max-width: 500px;" 
+       controlsList="nodownload" 
+       oncontextmenu="return false;">
+  <source src="audio/au2.wav" type="audio/wav">
+</audio>
+</div>
+
+
+# Fósforo (P) en la Fertirrigación
+
+El Fósforo **(P)** es el nutriente más difícil de mover y de mantener disponible en el suelo. El objetivo de la fertirrigación es llevarlo directamente a la raíz antes de que el suelo lo "fije".
+
+## 1. El Problema Principal: La "Fijación" del P
+
+- El P reacciona muy rápido con el suelo y se vuelve **"P Fijado"** (insoluble).
+- **En la Amazonía (Suelos Ácidos):** El P se fija principalmente con el Hierro **(Fe)** y el Aluminio **(Al)**.
+- **En suelos Básicos/Alcalinos:** El P se fija con el Carbonato de Calcio $(\text{CaCO}_3)$.
+
+## 2. Clave de Absorción: El pH y el Ion Correcto
+
+- Las plantas solo absorben el Fósforo Monovalente, el ion **$\text{H}_2\text{PO}_4^-$**.
+- La disponibilidad de $\text{H}_2\text{PO}_4^-$ está controlada por el pH.
+- **A pH bajo (ácido):** Hay más $\text{H}_2\text{PO}_4^-$ disponible (ideal).
+- **A pH alto (alcalino, mayor a 7.2):** La cantidad de P disponible cae drásticamente (se vuelve no absorbible).
+
+::: {.callout-tip icon="true"}
+## **Estrategia Inteligente: Use Amonio** $(\text{NH}_4^+)$ con P
+Cuando la planta absorbe Amonio $(\text{NH}_4^+)$, las raíces liberan ácidos que **bajan el pH** justo alrededor de ellas. Este ambiente ácido aumenta dramáticamente la cantidad de Fósforo **($\text{H}_2\text{PO}_4^-$)** disponible. Por eso, aplicar P con un fertilizante amoniacal (como el Sulfato de Amonio) aumenta la absorción de P hasta 5 veces más que con otros N.
+:::
+
+## 3. Movimiento y Métodos de Aplicación
+
+- **Movimiento Limitado:** El P se mueve muy poco (unos pocos centímetros) desde el gotero debido a su rápida fijación.
+- **Diferencia del Fertirriego:** El riego por goteo es la única técnica que permite aplicar el P justo cuando la planta lo necesita y en la zona radicular húmeda, minimizando el tiempo de contacto con el suelo y, por ende, su fijación.
+- **Materia Orgánica:** Si el P se aplica con abonos orgánicos (como estiércol de pollo), puede moverse un poco más lejos, ya que los compuestos orgánicos evitan que el P reaccione con el suelo.
+
+::: {.callout-warning icon="true"}
+## **Fertilizantes Ácidos: Doble Uso**
+Fertilizantes como el Ácido Fosfórico $(\text{H}_3\text{PO}_4)$ o la Urea Fosfato (UP) son altamente ácidos. Se usan para:
+1. Suministrar P al cultivo.
+2. **Limpiar las líneas de riego** y destapar goteros, previniendo obstrucciones por precipitados de Calcio (aguas duras).
+:::
+
+## 4. Picos de Demanda (Absorción)
+
+El pico de la demanda de P se da durante el **crecimiento inicial** y la **diferenciación de los órganos reproductivos** (flores/frutos). Es crucial asegurar el suministro en estas etapas.

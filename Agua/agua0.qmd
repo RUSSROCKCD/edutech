@@ -1,0 +1,72 @@
+---
+title: "Fertirrigación 1"
+description: "Primer análisis"
+author: "CIBS Fundo San Rocco"
+date: "06/08/2025"
+image: "https://i.postimg.cc/qq8jHnWg/vainilla.jpg"
+toc: false
+lang: es
+fontsize: 12pt
+categories:
+  - AGRONOMÍA
+  - ABONOS ORGÁNICOS
+---
+
+
+<div style="margin: 20px 0;">
+<audio controls style="width: 100%; max-width: 500px;" 
+       controlsList="nodownload" 
+       oncontextmenu="return false;">
+  <source src="audio/au1.wav" type="audio/wav">
+</audio>
+</div>
+
+
+# Nitrógeno (N) en la Fertirrigación
+
+El nitrógeno **(N)** es esencial, pero su forma y el momento de aplicación son clave para evitar pérdidas y toxicidad, especialmente en suelos de la Amazonía que suelen ser ácidos y con baja retención.
+
+## Las 3 Formas Básicas de Nitrógeno
+
+-   **N-Urea** $(\text{CO}(\text{NH}_2)_2)$: Molécula neutra. Se transforma rápidamente en Amonio en el suelo (24-48 horas).
+-   **N-Amoniacal** $(\text{NH}_4^+)$: Catión (carga positiva). Se "pega" a las partículas de arcilla y materia orgánica, moviéndose poco.
+-   **N-Nitrato** $(\text{NO}_3^-)$: Anión (carga negativa). Se mueve libremente con el agua, lo que facilita su lixiviación (lavado) y su absorción.
+
+## Reacciones Críticas y Pérdidas
+
+### Urea en el Suelo
+
+-   **Transformación:** La Urea se convierte en **Amonio** por la enzima ureasa. Esta reacción es muy rápida y **sube el pH del suelo** localmente (lo hace más alcalino).
+-   **Pérdidas (Volatilización):** Si la urea se deja en la superficie, el Amonio se puede perder como gas (amoníaco) a la atmósfera. Esto es peor cuando:
+    -   El pH del suelo es **alto** (alcalino).
+    -   La Capacidad de Intercambio Catiónico **(CIC)** es **baja** (como en suelos arenosos).
+
+### Pérdidas de Nitrato $(\text{NO}_3^-)$ y Amonio $(\text{NH}_4^+)$
+
+-   **Desnitrificación** $(\text{NO}_3^-)$: Ocurre cuando el suelo está saturado de agua (encharcado) y le falta oxígeno. Los microorganismos usan el oxígeno del nitrato, liberando N gaseoso a la atmósfera (gran pérdida).
+-   **Lixiviación** $(\text{NO}_3^- \text{ y Urea})$: Como el Nitrato se mueve libremente con el agua, se lava fácilmente fuera de la zona de raíces si se riega en exceso.
+
+
+::: {.callout-tip icon="true"}
+## **Recomendación Práctica: Riego con Pausas**
+Para evitar el encharcamiento (y la pérdida de nitratos por desnitrificación), use un sistema de riego con pausas (**comando on/off**) para permitir que la zona radicular se airee. ¡Así optimiza el uso del N! 
+:::
+
+
+## La Elección de la Fuente de N y la Fisiología del Cultivo
+
+### Según el Tipo de Suelo y Clima 
+
+-   **Suelos Arcillosos Pesados y Cálidos:** Urea puede ser mejor (menor riesgo de desnitrificación). *Precaución: Vigile la volatilización si el suelo es alcalino.*
+-   **Suelos Arenosos y Baja CIC:** **Nitrato** es a menudo más apropiado. El riesgo de toxicidad por Amoníaco es alto con la urea en suelos arenosos porque tienen poca capacidad para retener el amonio.
+
+### Según la Temperatura de la Raíz 
+
+-   **Temperatura Alta (mayor a 17°C):** Es mejor usar la fuente de **Nitrato**. Cuando hace mucho calor en el suelo, las raíces consumen más azúcar por respiración, dejando poco azúcar para "desintoxicar" el Amonio absorbido. La acumulación de Amonio libre es tóxica y puede matar las raíces.
+-   **Plantas Sensibles:** Las plantas de hoja ancha (dicotiledóneas) son más sensibles a la toxicidad por Amonio que las gramíneas (monocotiledóneas) como el arroz o el maíz.
+
+
+::: {.callout-tip icon="true"}
+## **Riesgo de Amonio en la Fructificación:**
+El Amonio $(\text{NH}_4^+)$ puede reducir la absorción de Calcio **(Ca)** y Magnesio **(Mg)**. Durante la fructificación, esto puede causar la **Podredumbre Apical (Blossom End Rot)** en cultivos como tomate o pimiento. En esta etapa, priorice el **Nitrato** como fuente principal.
+:::

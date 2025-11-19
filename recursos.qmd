@@ -1,0 +1,6 @@
+---
+title: "Análisis y recomendaciones por expertos"
+listing: 
+  contents: "recursos/"
+  type: grid
+---

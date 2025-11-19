@@ -1,0 +1,66 @@
+---
+title: "Fertirrigación 5"
+description: "Primer análisis"
+author: "CIBS Fundo San Rocco"
+date: "06/08/2025"
+image: "https://i.postimg.cc/qq8jHnWg/vainilla.jpg"
+toc: false
+lang: es
+fontsize: 12pt
+categories:
+  - AGRONOMÍA
+  - ABONOS ORGÁNICOS
+---
+
+
+<div style="margin: 20px 0;">
+<audio controls style="width: 100%; max-width: 500px;" 
+       controlsList="nodownload" 
+       oncontextmenu="return false;">
+  <source src="audio/au4.wav" type="audio/wav">
+</audio>
+</div>
+
+
+# Nutrientes Secundarios en la Fertirrigación
+
+El Calcio **(Ca)**, Magnesio **(Mg)** y Azufre **(S)** son llamados "nutrientes secundarios" pero son tan importantes como el Fósforo **(P)**, y a veces se necesitan en cantidades iguales o mayores.
+
+## 1. Calcio (Ca)
+
+El Calcio es único en su movimiento:
+-   Se mueve **solo hacia arriba** (de raíz a hoja o fruto) y no regresa (no es móvil).
+-   Una deficiencia de $\text{Ca}$ en la raíz mata las células de la zona de elongación, restringiendo el crecimiento.
+-   **Fertirriego con $\text{Ca}$:** La principal fuente es el Nitrato de Calcio.
+    
+::: {.callout-note icon="true"}
+## Cuidado con la Precipitación
+Si usa aguas de riego con altos niveles de $\text{Ca}$, debe **enjuagar las líneas** al final del riego. Dejar residuos de $\text{Ca}$ puede causar la precipitación de $\text{CaCO}_3$ (carbonato de calcio) y **taponar los goteros**.
+:::
+
+## 2. Magnesio (Mg)
+
+El Magnesio es esencial porque:
+-   Es la parte central de la molécula de **clorofila**, dando el color verde a las hojas.
+-   Es vital para la síntesis de proteínas y la activación de compuestos de energía (ATP).
+
+::: {.callout-warning icon="true"}
+## Riesgo de Deficiencia por Amonio $(\text{NH}_4^+)$
+En suelos arenosos con baja arcilla, el **Amonio $(\text{NH}_4^+)$** puede competir con la absorción del **Magnesio $(\text{Mg}^{2+})$** por las raíces, provocando una deficiencia de $\text{Mg}$. En estos casos, priorice fertilizantes con Nitrato.
+:::
+
+-   **Fuentes Comunes:** Sulfato de Magnesio $(\text{MgSO}_4\cdot7\text{H}_2\text{O})$ o Nitrato de Magnesio $(\text{Mg}(\text{NO}_3)_2\cdot6\text{H}_2\text{O})$.
+
+## 3. Azufre (S)
+
+-   El Azufre es un elemento esencial requerido en cantidades similares a las del Fósforo **(P)**.
+-   Se suministra como ion sulfato **$(\text{SO}_4^{2-})$**.
+-   **Suministro Natural:** A menudo, el agua de riego y el uso de fertilizantes con base de sulfato (ej. Sulfato de Potasio $\text{K}_2\text{SO}_4$, Sulfato de Amonio) satisfacen las necesidades de Azufre del cultivo.
+
+## 4. Importancia del Agua de Riego
+
+La fuente de agua de riego **siempre contiene** $\text{Ca}$, $\text{Mg}$ y $\text{S}$. Es fundamental analizar esta agua:
+
+-   El flujo de masa del agua de riego suele aportar $\text{Ca}$ y $\text{Mg}$ a las raíces en cantidades muchas veces mayores a las que la planta puede absorber.
+  
+-   **Recomendación:** Considere los nutrientes ya presentes en el agua de riego para evitar una carga de sales muy alta y para no taponar goteros. En fertirrigación, lo que importa es el suministro continuo en el bulbo de mojado, no la concentración del nutriente en el suelo seco.

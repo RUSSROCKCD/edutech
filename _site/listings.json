@@ -1,0 +1,39 @@
+[
+  {
+    "listing": "/suelo.html",
+    "items": [
+      "/suelo/Analisis5.html",
+      "/suelo/Analisis4.html",
+      "/suelo/Analisis3.html",
+      "/suelo/Analisis.html",
+      "/suelo/Analisis1.html",
+      "/suelo/Analisis2.html"
+    ]
+  },
+  {
+    "listing": "/agua.html",
+    "items": [
+      "/Agua/agua0.html",
+      "/Agua/agua1.html",
+      "/Agua/agua2.html",
+      "/Agua/agua3.html",
+      "/Agua/agua4.html",
+      "/Agua/agua5.html"
+    ]
+  },
+  {
+    "listing": "/abonos.html",
+    "items": [
+      "/abono/abono0.html",
+      "/abono/abono1.html",
+      "/abono/abono2.html",
+      "/abono/abono3.html"
+    ]
+  },
+  {
+    "listing": "/recursos.html",
+    "items": [
+      "/recursos/Analisis.html"
+    ]
+  }
+]

@@ -1,0 +1,266 @@
+---
+title: "Bio-insumos y Sustratos Orgánicos"
+description: "Primer análisis"
+author: "CIBS Fundo San Rocco"
+date: "06/08/2025"
+image: "https://i.postimg.cc/qq8jHnWg/vainilla.jpg"
+toc: false
+lang: es
+fontsize: 12pt
+categories:
+  - AGRONOMÍA
+  - ABONOS ORGÁNICOS
+---
+
+# ¿Qué es el Biol?
+
+<div style="margin: 20px 0;">
+<audio controls style="width: 100%; max-width: 500px;" 
+       controlsList="nodownload" 
+       oncontextmenu="return false;">
+  <source src="audio/au3.wav" type="audio/wav">
+</audio>
+</div>
+
+El **Biol** es un abono natural líquido, producto de la descomposición anaeróbica de diferentes desechos orgánicos.
+
+*   **Principal Beneficio:** Su carácter fitoregulador.
+*   **Función:** Promueve la actividad fisiológica y el desarrollo de las plantas.
+*   **Resultados:** Plantas más resistentes al ataque de plagas y enfermedades, y más nutritivas para el ser humano.
+
+## Usos del Biol
+
+*   Puede ser usado en **todos los cultivos**.
+*   Mejora la **germinación y enraizamiento de semillas**.
+*   Efectos muy positivos sobre la **vida activa del suelo**.
+*   Promueve la actividad de **microorganismos benéficos**.
+*   Mejora la **disponibilidad de micronutrientes** para el cultivo.
+
+## Construcción del Fermentador Anaeróbico para el Biol (para 150 litros)
+
+Para producir Biol, es crucial un sistema que permita la salida de gases sin que entre aire, garantizando la fermentación anaeróbica. Una opción es perforar la tapa del bidón e introducir una salida estanca.
+
+### Materiales Necesarios para el Fermentador y Preparación:
+
+*   1 Bidón de 200 L con tapa y cierre hermético.
+*   1 Salida de estanque con sello hermético.
+*   Reducciones HE-HI a ½".
+*   1 Terminal HE 1½" de planza.
+*   1 Taladro con sierra de copa de la dimensión de la salida del estanque.
+*   1 Balde de 20L.
+*   50 cm de manguera de ½".
+*   Botella de plástico (para el burbujeador).
+
+### Ingredientes (Receta) para el Biol:
+
+*   2 kg de chancaca o azúcar rubia.
+*   2 L de leche.
+*   200 g de levadura.
+*   50 kg de guano muy fresco de vacuno, caballo u oveja.
+*   5 kg de hojas de plantas leguminosas verdes bien picadas (lupino, alfalfa, trébol, habas o arvejas).
+*   3 kg de ceniza de madera no tratada cernida.
+*   140 a 160 L de agua limpia sin cloro (cantidad suficiente para llenar hasta 20 cm bajo la apertura del bidón).
+
+### Proceso de Elaboración:
+
+1.  **Chancaca/Azúcar:** Triturar 2 kg de chancaca y diluir en 2 L de agua caliente. Verter en un balde de 20 L.
+2.  **Leche y Levadura:** Agregar agua fría para entibiar la dilución, luego 2 L de leche y 200 g de levadura. Dejar leudar por 5 min.
+3.  **Guano y Leguminosas:** Introducir 50 kg de guano fresco y 5 kg de leguminosas picadas en el bidón de 200 L.
+4.  **Ceniza:** Incorporar 3 kg de ceniza de madera cernida.
+5.  **Mezcla Líquida:** Verter el contenido del balde (chancaca, leche, levadura) en el bidón.
+6.  **Agua:** Agregar agua limpia sin cloro hasta 20 cm bajo la apertura del bidón.
+7.  **Mezclado:** Revolver enérgicamente en círculos con un palo hasta obtener una mezcla homogénea.
+8.  **Sellado:** Sellar herméticamente el bidón con su tapa. La manguera flexible que sobresale de la tapa se introduce en una botella con agua (burbujeador).
+
+*   **Nota:** El orden de incorporación de los materiales no altera el producto final.
+
+### Duración y Maduración del Biol:
+
+*   El proceso de fermentación dura de **dos a cuatro meses**.
+*   **En invierno:** Es recomendable prepararlo en una sala aislada para evitar el congelamiento y la detención de la fermentación.
+*   **Listo:** Cuando la fermentación haya finalizado (no hay burbujas saliendo por la manguera) y se sienta un aroma agradable a levadura.
+
+## Envasado, Almacenaje y Aplicación del Biol
+
+*   **Filtrado:** El líquido se filtra con un paño o cedazo.
+*   **Almacenaje:** En bidones en un lugar fresco y oscuro. Puede durar de 4 a 6 meses, aunque su poder biológico disminuye con el tiempo.
+*   **Sólidos remanentes:** Se pueden aplicar directamente a los cultivos.
+*   **Aplicación Líquida:**
+    *   **Forma:** Foliar o vía riego.
+    *   **Dilución:** Entre 2.5% y 10% en agua.
+    *   **Horario:** Mañana (antes de las 10 hrs) o tarde (después de las 15 hrs).
+
+### Dosis Recomendadas por Etapa de Desarrollo:
+
+| Etapa de Desarrollo  | Dosis Recomendada               |
+|:---------------------|:--------------------------------|
+| Plantas jóvenes      | 1/2 L de biol diluido en 20L de agua |
+| Plantas en desarrollo | 1 L de biol diluido en 20L de agua   |
+| Plantas maduras      | 2 L de biol diluido en 20L de agua   |
+
+```{r embed-video1, echo=FALSE, results='asis'}
+library(vembedr)
+embed_url("https://youtu.be/fOp7dGo6G-4?si=FFuOoVoaOz22XQrI")%>%
+  use_align("center")
+```
+
+
+
+
+# Caldos Simbióticos o Trofobióticos
+
+<div style="margin: 20px 0;">
+<audio controls style="width: 100%; max-width: 500px;" 
+       controlsList="nodownload" 
+       oncontextmenu="return false;">
+  <source src="audio/au4.wav" type="audio/wav">
+</audio>
+</div>
+
+*   Se preparan en **forma líquida**.
+*   Ricos en **microorganismos importantes** para mejorar la vida del suelo y las plantas.
+
+## Función del Caldo Simbiótico o Trofobiótico
+
+*   Proporcionan una cantidad considerable de **elementos fertilizantes asimilables** para el desarrollo de las plantas.
+*   Contienen diversos tipos de **microorganismos** según análisis de laboratorio: actinomicetos, bacterias, levaduras y hongos.
+*   Además, aportan **elementos menores** como boro, cobre y zinc.
+
+## Materiales Necesarios para la Preparación:
+
+*   Bidón con capacidad de 200 litros (con tapa roscada o ballesta).
+*   Saco de yute o rafia.
+*   Varios cubos para disolver los minerales.
+*   Palos para remover los minerales (preferentemente de madera).
+
+## Componentes Orgánicos y Minerales:
+
+*   12 kg de estiércol fresco de ganado.
+*   40 litros de microorganismos efectivos, disueltos o activados.
+*   4 litros de melaza de caña de azúcar.
+*   Sulfato de Magnesio – 2 kg.
+*   Sulfato de Zinc - 2 kg.
+*   1/3 kg de Sulfato de Manganeso.
+*   1/3 kg de Sulfato Ferroso o Hierro.
+*   Sulfato de Potasio o Nitrato de Potasio - 2 kg.
+*   Cloruro de Calcio, Nitrato de Calcio o Harina de Huesos - 2 kg.
+*   Fosfato Mono Amónico – 2 kg.
+*   Bórax - 5 kg.
+*   Ceniza - 5 kg.
+*   Agua para completar el bidón.
+
+## Elaboración del Caldo Trofobiótico:
+
+1.  **Estiércol:** Poner 12 kg de estiércol de ganado en un saco de yute o rafia, atar y meter al barril.
+2.  **Sales:** Diluir cada una de las sales en 12 litros de agua a temperatura ambiente, removiendo por 5 minutos. Verter en el bidón mientras se remueve la mezcla por otros 2 minutos cada vez que se añada un elemento.
+3.  **Microorganismos:** Incorporar los microorganismos al bidón.
+4.  **Melaza:** Mezclar la melaza de caña en 12 litros de agua (tibia para mejor disolución).
+5.  **Ceniza:** Mezclar la ceniza en 20 litros de agua y vaciar en el bidón.
+6.  **Llenado Final:** Terminar de llenar con agua el bidón y remover durante cinco minutos.
+7.  **Sellado:** Cerrar el bidón con su tapa o cacho de plástico.
+8.  **Sellado Adicional:** Atar el plástico con un cordel o goma elástica.
+
+*   **Nota:** El orden de incorporación de los materiales no altera el producto final.
+
+## Almacenaje y Conservación del Caldo Trofobiótico:
+
+*   **Condiciones estables:** Mover el producto 5 minutos, dos veces al día (mañana y tarde) durante aproximadamente 21 días, hasta que el fertilizante esté listo.
+*   **Filtrado:** Colar el caldo con una tela o malla para que quede totalmente limpio.
+*   **Envasado:** En recipientes plásticos, preferentemente diseñados para biofertilizantes, o cualquier otro plástico.
+*   **Caducidad:** Varios meses. Se recomienda calcular las dosis para evitar excedentes.
+*   **Recomendación:** Poner la fecha de elaboración en el envase y guardar en un lugar fresco, con sombra y alejado del alcance de los niños.
+
+## Aplicación del Caldo:
+
+*   **Dosis general (pulverización):** 200 a 300 cm³ de producto fertilizante en una bomba de pulverizar de 15 a 18 litros.
+*   **Frecuencia:** Aplicación cada 6 días durante el ciclo del cultivo, mínimo 5 aplicaciones.
+    *   **Nota:** Iniciar con dosis bajas e ir aumentando.
+*   **Hortalizas:** 1 litro de producto en 30 litros de agua (sin cloro).
+*   **Árboles (más de un año):** 1 litro de producto en 10 litros de agua (sin cloro).
+*   **Frutales tropicales:** Aplicar antes de la floración. Mezclar 20 litros de producto en 10 litros de agua.
+*   **Recomendación:** Aplicar en la época de lluvias y en horas de menor intensidad solar.
+
+```{r embed-video2, echo=FALSE, results='asis'}
+library(vembedr)
+embed_url("https://youtu.be/9ocq5G2wCU4?si=54qpZK8FfiCihigF")%>%
+  use_align("center")
+```
+
+
+# Sustratos
+
+<div style="margin: 20px 0;">
+<audio controls style="width: 100%; max-width: 500px;" 
+       controlsList="nodownload" 
+       oncontextmenu="return false;">
+  <source src="audio/au5.wav" type="audio/wav">
+</audio>
+</div>
+
+## ¿Qué es y para qué sirve un sustrato?
+
+Los sustratos son medios que sirven para:
+
+*   **Retención de agua y nutrientes.**
+*   **Intercambio de gases y nutrientes.**
+*   **Anclaje** para el sistema radicular de la planta.
+*   Sus características físicas dependen de los **componentes usados y su proporción** en la mezcla.
+
+## Componentes del Sustrato
+
+Pueden ser orgánicos o inorgánicos:
+
+*   **Orgánicos:** Turba de musgo, corteza de árboles, coco en trozos, cáscaras de arroz, fibra de árboles, etc.
+*   **Inorgánicos:** Perlita, piedra pómez, vermiculita, arena, hidrogel, etc.
+
+*   **Capacidad de retención de agua:** Varía entre componentes; algunos retienen agua en superficie, otros dentro de su estructura, y algunos como la perlita retienen muy poca agua.
+
+## Características Físicas de los Sustratos
+
+Las tres medidas más comunes para la caracterización física son:
+
+*   **Densidad Aparente:** Peso por volumen.
+*   **Capacidad de Retención de Agua (CRA):** Porcentaje de volumen de agua retenida después de saturación y drenaje libre.
+*   **Aireación:** Volumen del espacio poroso ocupado por aire después del drenaje.
+
+*   Los sustratos envasados (a base de turba de musgo esfagnácea) suelen tener baja densidad aparente y alta CRA.
+*   Los sustratos a base de corteza son más pesados, ideales para drenaje y estabilidad.
+*   Ambos suelen tener buena aireación (entre 10% y 18% por volumen).
+
+## Características Químicas de los Sustratos
+
+Dos medidas químicas importantes:
+
+*   **pH:** Determina la acidez o basicidad.
+    *   **Ideal general:** 5.2 a 6.2 (objetivo 5.8 en saturación).
+    *   **Germinación/Enraizamiento:** 5.0 a 6.0 (objetivo 5.6 en saturación); pH tiende a aumentar con fertilizante y alcalinidad del agua.
+*   **CE (Conductividad Eléctrica):** Mide la capacidad de la solución del suelo para conducir electricidad e indica la cantidad de nutrientes disponibles.
+    *   **Deseada general:** 1.0 a 2.0 mmhos/cm.
+    *   **Germinación/Propagación:** 0.5 a 1.1 mmhos/cm.
+
+## Mezclas de Sustratos
+
+*   **Composición general:** 75% de compost o turba, 25% de perlita o vermiculita.
+
+### Ejemplos de Productos PRO-MIX y sus Características:
+
+| Producto PRO-MIX             | Intervalo de pH | CE* mmhos/cm | Aireación (por volumen) | Densidad Aparente (kg/m3) |
+|:-----------------------------|:----------------|:-------------|:------------------------|:--------------------------|
+| **Germinación y especialidad** |                 |              |                         |                           |
+| PRO-MIX FPX (turba/perlita - finas) | 4.8-5.8         | 0.5-0.9      | 10-14%                  | 160.2-224.3 kg/m3         |
+| **Uso general**              |                 |              |                         |                           |
+| PRO-MIX BX (turba/perlita/vermiculita) | 5.2-6.2         | 1.0-1.8      | 12-17%                  | 128.1-160.2 kg/m3         |
+| PRO-MIX BRK (turba/trozos de coco/perlita) | 5.2-6.2         | 1.5-2.5      | 11-17%                  | 224.3-304.4 kg/m3         |
+| PRO-MIX BRK20 (turba/trozos de coco/perlita) | 5.2-6.2         | 1.5-2.5      | 12-18%                  | 176.2-240.3 kg/m3         |
+| PRO-MIX BK25 (turba/trozos de coco/perlita) | 5.2-6.5         | 1.5-2.5      | 15-20%                  | 240.3-272.3 kg/m3         |
+| PRO-MIX BK55 (turba/trozos de coco/perlita) | 5.2-6.2         | 1.5-2.5      | 20-25%                  | 288.3-320.4 kg/m3         |
+| PRO-MIX BK25V (turba/trozos de coco/perlita) | 5.2-6.2         | 1.5-2.5      | 15-20%                  | 240.3-272.3 kg/m3         |
+| PRO-MIX BK45V (turba/trozos de coco/perlita) | 5.2-6.2         | 1.5-2.5      | 20-25%                  | 288.3-320.4 kg/m3         |
+| PRO-MIX HP (turba/perlita)   | 5.2-6.2         | 1.0-1.8      | 14-20%                  | 128.1-160.2 kg/m3         |
+| PRO-MIX HPCC (turba/trozos de coco/perlita) | 5.2-6.2         | 1.0-2.0      | 14-20%                  | 128.1-160.2 kg/m3         |
+
+```{r embed-video3, echo=FALSE, results='asis'}
+library(vembedr)
+embed_url("https://youtu.be/p-yfvf_e7Ik?si=lRumlZSNqLYGDwMs")%>%
+  use_align("center")
+```

@@ -1,0 +1,113 @@
+---
+title: "Abonos Orgánicos 1"
+description: "Primer análisis"
+author: "CIBS Fundo San Rocco"
+date: "06/08/2025"
+image: "https://i.postimg.cc/qq8jHnWg/vainilla.jpg"
+toc: false
+lang: es
+fontsize: 12pt
+categories:
+  - AGRONOMÍA
+  - ABONOS ORGÁNICOS
+---
+
+# Abonos Orgánicos
+
+Los abonos orgánicos son materiales naturales que mejoran la fertilidad del suelo y el crecimiento de las plantas. A continuación, se detallan los principales tipos mencionados:
+
+## Tipos de Abonos Orgánicos
+
+*   **Composta:**
+    *   Fertilizante orgánico práctico que enriquece y acondiciona cualquier sustrato.
+    *   Reproduce la descomposición natural de la materia vegetal, transformándola en humus.
+    *   Ingredientes: hojas, restos de podas/siegas (hierba, paja, ramas), desperdicios culinarios (verduras, hortalizas, frutos secos, peladuras, cáscaras).
+
+```{r embed-video1, echo=FALSE, results='asis'}
+library(vembedr)
+embed_url("https://www.youtube.com/watch?v=SD6AmhHX7zc")%>%
+  use_align("center")
+```
+
+
+*   **Turba:**
+    *   Se extrae de turberas, zonas de almacenamiento de materia orgánica con humedad.
+    *   Es un carbón en proceso de producción, formado por la acumulación y fosilización de restos vegetales durante siglos.
+    *   Su contenido de carbono se correlaciona con su color: cuanto más oscura, más carbono.
+
+```{r embed-video2, echo=FALSE, results='asis'}
+library(vembedr)
+embed_url("https://youtu.be/yfgu2cAWPAM?si=6xp9gNE60POTFhdu")%>%
+  use_align("center")
+```
+
+*   **Estiércol:**
+    *   Debe usarse fermentado o maduro para evitar ser abrasivo para las plantas.
+    *   Aporta nutrientes esenciales al suelo: nitrógeno, potasio y fósforo (NPK).
+    *   Son excrementos fermentados ricos en nitrógeno. Se recomienda estiércol comercial para control sanitario. El olor intenso a amoniaco debe desaparecer antes de su uso.
+
+```{r embed-video3, echo=FALSE, results='asis'}
+library(vembedr)
+embed_url("https://youtu.be/_xqXYJE1Gwg?si=6lMBYUs0ugyUBfd2")%>%
+  use_align("center")
+```
+
+*   **Humus de Lombriz:**
+    *   Compostaje limpio e inodoro resultante del proceso digestivo de las lombrices.
+    *   Supera al compost doméstico en propiedades nutritivas y concentración de microorganismos.
+    *   Puede adquirirse comercialmente (líquido o sólido) o fabricarse en casa (vermicultores).
+    *   Conocido como lombricultura o lombricomposta.
+
+
+```{r embed-video4, echo=FALSE, results='asis'}
+library(vembedr)
+embed_url("https://youtu.be/-z_tZURjL7c?si=1uki7aKM4S9PGERz")%>%
+  use_align("center")
+```
+
+*   **Abonos Verdes:**
+    *   Plantas sembradas y cultivadas expresamente para ser incorporadas al suelo como material nutriente.
+    *   Ejemplos: alfalfa, consuelda, trébol.
+    *   Además de aportar materia vegetal, fijan el nitrógeno del aire y lo devuelven a la tierra.
+    *   Enriquecen la biodiversidad del ecosistema.
+
+```{r embed-video5, echo=FALSE, results='asis'}
+library(vembedr)
+embed_url("https://youtu.be/BaUwgDBWzq4?si=wv-MfpL3wxoeo9Y7")%>%
+  use_align("center")
+```
+
+*   **Harinas de Hueso:**
+    *   Alto contenido en fósforo, útil para estimular la floración y corregir el pH de suelos ácidos.
+    *   Las harinas de astas y pezuñas son ricas en nitrógeno.
+    *   Preparación: calcinar huesos (a veces con madera) y molerlos.
+    *   Uso variado: mezclado en el suelo, macetas o bancales.
+
+```{r embed-video6, echo=FALSE, results='asis'}
+library(vembedr)
+embed_url("https://www.youtube.com/watch?v=7tr_bbXlfWA")%>%
+  use_align("center")
+```
+
+
+*   **Cenizas de Materia Orgánica:**
+    *   Carecen de nitrógeno, pero son ricas en potasio, calcio y magnesio.
+    *   Corrigen la acidez del terreno.
+    *   Estudios han mostrado un aumento del pH del suelo y de la microbiota tras su aplicación.
+
+```{r embed-video7, echo=FALSE, results='asis'}
+library(vembedr)
+embed_url("https://www.youtube.com/watch?v=ejs-6AHV81Y")%>%
+  use_align("center")
+```
+
+
+
+
+
+
+
+
+
+
+

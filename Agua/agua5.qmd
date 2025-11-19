@@ -1,0 +1,73 @@
+---
+title: "Fertirrigación 6"
+description: "Primer análisis"
+author: "CIBS Fundo San Rocco"
+date: "06/08/2025"
+image: "https://i.postimg.cc/qq8jHnWg/vainilla.jpg"
+toc: false
+lang: es
+fontsize: 12pt
+categories:
+  - AGRONOMÍA
+  - ABONOS ORGÁNICOS
+---
+
+
+<div style="margin: 20px 0;">
+<audio controls style="width: 100%; max-width: 500px;" 
+       controlsList="nodownload" 
+       oncontextmenu="return false;">
+  <source src="audio/au5.wav" type="audio/wav">
+</audio>
+</div>
+
+
+# Micronutrientes en la Fertirrigación
+
+Los micronutrientes (o "elementos traza") son requeridos en cantidades pequeñas, pero son esenciales. Su deficiencia se observa primero en las **hojas más jóvenes** o en el ápice, a diferencia de los macronutrientes, que afectan las hojas viejas.
+
+## 1. Absorción y Disponibilidad (La Regla del pH)
+
+La disponibilidad de casi todos los micronutrientes depende fuertemente del pH del suelo:
+
+| Micronutriente | Símbolo | Absorción como Ion | Rango de pH ideal |
+| :--- | :--- | :--- | :--- |
+| **Hierro** | $\text{Fe}$ | Catión $(\text{Fe}^{2+})$ | 4.0 - 6.5 |
+| **Manganeso** | $\text{Mn}$ | Catión $(\text{Mn}^{2+})$ | 5.0 - 6.5 |
+| **Zinc** | $\text{Zn}$ | Catión $(\text{Zn}^{2+})$ | 5.0 - 7.0 |
+| **Cobre** | $\text{Cu}$ | Catión $(\text{Cu}^{2+})$ | 5.0 - 7.0 |
+| **Boro** | $\text{B}$ | Ácido Bórico $(\text{B}(\text{OH})_3)$ | 5.0 - 7.5 |
+| **Molibdeno** | $\text{Mo}$ | Anión $(\text{MoO}_4^{2-})$ | **7.0 - 8.5** (Único que prefiere pH alcalino) |
+
+::: {.callout-note icon="true"}
+## La Regla del pH y Micronutrientes
+La disponibilidad de los micronutrientes metálicos **($\text{Fe}, \text{Mn}, \text{Zn}, \text{Cu}$)** **disminuye** drásticamente a medida que el pH del suelo aumenta por encima de 7.0. La única excepción es el **Molibdeno $(\text{Mo})$**, que se absorbe mejor en suelos neutros a alcalinos (pH 7.0-8.5).
+:::
+
+## 2. Estrategia de Aplicación: Quelatos
+
+-   Los micronutrientes metálicos $(\text{Fe}, \text{Cu}, \text{Zn}, \text{Mn})$ reaccionan muy rápido con el suelo y se vuelven indisponibles si se aplican como sales simples.
+-   **Solución:** Se deben aplicar en forma de **Quelatos** (principalmente **EDTA**). Un quelato es un compuesto que "envuelve" al elemento metálico para protegerlo de reaccionar con el suelo, manteniendo su disponibilidad para que la raíz lo absorba.
+
+## 3. Micronutrientes Específicos
+
+### Boro (B)
+-   Es crucial para el crecimiento de la raíz, la germinación del polen y la elongación del tubo polínico.
+-   Su absorción es como ácido bórico **$\text{B}(\text{OH})_3$**.
+-   **Absorción por pH:** La absorción de B disminuye rápida y marcadamente a partir de un pH de 8.0.
+
+### Hierro (Fe)
+-   La deficiencia de $\text{Fe}$ (clorosis o amarillamiento) se observa en las hojas más jóvenes, especialmente en suelos calcáreos $(\text{CaCO}_3)$ con $\text{pH} > 8.0$.
+-   **Estrategia de la Raíz:** Las plantas absorben $\text{Fe}$ principalmente bajando el pH alrededor de la raíz (cuando absorben N-amoniacal), lo que hace que el $\text{Fe}$ insoluble $[\text{Fe}(\text{OH})_3]$ se reduzca a $\text{Fe}^{2+}$ absorbible.
+
+### Zinc (Zn)
+-   Deficiencia de $\text{Zn}$ es común en suelos con **pH alto** $(>\text{7.5})$, alto $\text{CaCO}_3$ o baja materia orgánica.
+-   Síntomas incluyen **"arrosetado"** (tallos y ramas cortos) y **"hojas pequeñas"**.
+
+### Cobre (Cu)
+-   Esencial para la fotosíntesis.
+-   Su disponibilidad se limita si hay mucha materia orgánica en el suelo. Es crucial controlar su nivel en fertirrigación para evitar la **toxicidad** ("shock de cobre").
+
+### Cloro (Cl)
+-   Es esencial en microcantidades para la fotosíntesis (partición del agua).
+-   Rara vez hay deficiencia. El riesgo mayor es la **toxicidad** por acumulación en hojas debido al uso de aguas salinas, causando necrosis en los bordes.
