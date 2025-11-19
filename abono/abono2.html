@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="CIBS Fundo San Rocco">
+<meta name="description" content="Primer análisis">
+
+<title>Bio-insumos y Sustratos Orgánicos – CIBS FUNDO SAN ROCCO</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-07fa2145a13d9de45c16936b888d58c6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-f7802bdbb91bfe76c56dca86b4e4ca4c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-07fa2145a13d9de45c16936b888d58c6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+<link href="../site_libs/vembedr-0.1.5/css/vembedr.css" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">CIBS FUNDO SAN ROCCO</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Inicio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../suelo.html"> 
+<span class="menu-text">Suelo</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../abonos.html"> 
+<span class="menu-text">Abonos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../agua.html"> 
+<span class="menu-text">Agua</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../sanidad.html"> 
+<span class="menu-text">Sanidad</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../sostenibilidad.html"> 
+<span class="menu-text">Sostenibilidad</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../recursos.html"> 
+<span class="menu-text">Recursos</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div class="quarto-margin-footer"><div class="margin-footer-item">
+<p><img src="..\img/fondlogo.png" width="150" height="150"></p>
+</div></div></div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Bio-insumos y Sustratos Orgánicos</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">AGRONOMÍA</div>
+    <div class="quarto-category">ABONOS ORGÁNICOS</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Primer análisis
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor/a</div>
+    <div class="quarto-title-meta-contents">
+             <p>CIBS Fundo San Rocco </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">8 de junio de 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="qué-es-el-biol" class="level1">
+<h1>¿Qué es el Biol?</h1>
+<div style="margin: 20px 0;">
+<audio controls="" style="width: 100%; max-width: 500px;" controlslist="nodownload" oncontextmenu="return false;">
+<source src="audio/au3.wav" type="audio/wav">
+</audio>
+</div>
+<p>El <strong>Biol</strong> es un abono natural líquido, producto de la descomposición anaeróbica de diferentes desechos orgánicos.</p>
+<ul>
+<li><strong>Principal Beneficio:</strong> Su carácter fitoregulador.</li>
+<li><strong>Función:</strong> Promueve la actividad fisiológica y el desarrollo de las plantas.</li>
+<li><strong>Resultados:</strong> Plantas más resistentes al ataque de plagas y enfermedades, y más nutritivas para el ser humano.</li>
+</ul>
+<section id="usos-del-biol" class="level2">
+<h2 class="anchored" data-anchor-id="usos-del-biol">Usos del Biol</h2>
+<ul>
+<li>Puede ser usado en <strong>todos los cultivos</strong>.</li>
+<li>Mejora la <strong>germinación y enraizamiento de semillas</strong>.</li>
+<li>Efectos muy positivos sobre la <strong>vida activa del suelo</strong>.</li>
+<li>Promueve la actividad de <strong>microorganismos benéficos</strong>.</li>
+<li>Mejora la <strong>disponibilidad de micronutrientes</strong> para el cultivo.</li>
+</ul>
+</section>
+<section id="construcción-del-fermentador-anaeróbico-para-el-biol-para-150-litros" class="level2">
+<h2 class="anchored" data-anchor-id="construcción-del-fermentador-anaeróbico-para-el-biol-para-150-litros">Construcción del Fermentador Anaeróbico para el Biol (para 150 litros)</h2>
+<p>Para producir Biol, es crucial un sistema que permita la salida de gases sin que entre aire, garantizando la fermentación anaeróbica. Una opción es perforar la tapa del bidón e introducir una salida estanca.</p>
+<section id="materiales-necesarios-para-el-fermentador-y-preparación" class="level3">
+<h3 class="anchored" data-anchor-id="materiales-necesarios-para-el-fermentador-y-preparación">Materiales Necesarios para el Fermentador y Preparación:</h3>
+<ul>
+<li>1 Bidón de 200 L con tapa y cierre hermético.</li>
+<li>1 Salida de estanque con sello hermético.</li>
+<li>Reducciones HE-HI a ½”.</li>
+<li>1 Terminal HE 1½” de planza.</li>
+<li>1 Taladro con sierra de copa de la dimensión de la salida del estanque.</li>
+<li>1 Balde de 20L.</li>
+<li>50 cm de manguera de ½”.</li>
+<li>Botella de plástico (para el burbujeador).</li>
+</ul>
+</section>
+<section id="ingredientes-receta-para-el-biol" class="level3">
+<h3 class="anchored" data-anchor-id="ingredientes-receta-para-el-biol">Ingredientes (Receta) para el Biol:</h3>
+<ul>
+<li>2 kg de chancaca o azúcar rubia.</li>
+<li>2 L de leche.</li>
+<li>200 g de levadura.</li>
+<li>50 kg de guano muy fresco de vacuno, caballo u oveja.</li>
+<li>5 kg de hojas de plantas leguminosas verdes bien picadas (lupino, alfalfa, trébol, habas o arvejas).</li>
+<li>3 kg de ceniza de madera no tratada cernida.</li>
+<li>140 a 160 L de agua limpia sin cloro (cantidad suficiente para llenar hasta 20 cm bajo la apertura del bidón).</li>
+</ul>
+</section>
+<section id="proceso-de-elaboración" class="level3">
+<h3 class="anchored" data-anchor-id="proceso-de-elaboración">Proceso de Elaboración:</h3>
+<ol type="1">
+<li><strong>Chancaca/Azúcar:</strong> Triturar 2 kg de chancaca y diluir en 2 L de agua caliente. Verter en un balde de 20 L.</li>
+<li><strong>Leche y Levadura:</strong> Agregar agua fría para entibiar la dilución, luego 2 L de leche y 200 g de levadura. Dejar leudar por 5 min.</li>
+<li><strong>Guano y Leguminosas:</strong> Introducir 50 kg de guano fresco y 5 kg de leguminosas picadas en el bidón de 200 L.</li>
+<li><strong>Ceniza:</strong> Incorporar 3 kg de ceniza de madera cernida.</li>
+<li><strong>Mezcla Líquida:</strong> Verter el contenido del balde (chancaca, leche, levadura) en el bidón.</li>
+<li><strong>Agua:</strong> Agregar agua limpia sin cloro hasta 20 cm bajo la apertura del bidón.</li>
+<li><strong>Mezclado:</strong> Revolver enérgicamente en círculos con un palo hasta obtener una mezcla homogénea.</li>
+<li><strong>Sellado:</strong> Sellar herméticamente el bidón con su tapa. La manguera flexible que sobresale de la tapa se introduce en una botella con agua (burbujeador).</li>
+</ol>
+<ul>
+<li><strong>Nota:</strong> El orden de incorporación de los materiales no altera el producto final.</li>
+</ul>
+</section>
+<section id="duración-y-maduración-del-biol" class="level3">
+<h3 class="anchored" data-anchor-id="duración-y-maduración-del-biol">Duración y Maduración del Biol:</h3>
+<ul>
+<li>El proceso de fermentación dura de <strong>dos a cuatro meses</strong>.</li>
+<li><strong>En invierno:</strong> Es recomendable prepararlo en una sala aislada para evitar el congelamiento y la detención de la fermentación.</li>
+<li><strong>Listo:</strong> Cuando la fermentación haya finalizado (no hay burbujas saliendo por la manguera) y se sienta un aroma agradable a levadura.</li>
+</ul>
+</section>
+</section>
+<section id="envasado-almacenaje-y-aplicación-del-biol" class="level2">
+<h2 class="anchored" data-anchor-id="envasado-almacenaje-y-aplicación-del-biol">Envasado, Almacenaje y Aplicación del Biol</h2>
+<ul>
+<li><strong>Filtrado:</strong> El líquido se filtra con un paño o cedazo.</li>
+<li><strong>Almacenaje:</strong> En bidones en un lugar fresco y oscuro. Puede durar de 4 a 6 meses, aunque su poder biológico disminuye con el tiempo.</li>
+<li><strong>Sólidos remanentes:</strong> Se pueden aplicar directamente a los cultivos.</li>
+<li><strong>Aplicación Líquida:</strong>
+<ul>
+<li><strong>Forma:</strong> Foliar o vía riego.</li>
+<li><strong>Dilución:</strong> Entre 2.5% y 10% en agua.</li>
+<li><strong>Horario:</strong> Mañana (antes de las 10 hrs) o tarde (después de las 15 hrs).</li>
+</ul></li>
+</ul>
+<section id="dosis-recomendadas-por-etapa-de-desarrollo" class="level3">
+<h3 class="anchored" data-anchor-id="dosis-recomendadas-por-etapa-de-desarrollo">Dosis Recomendadas por Etapa de Desarrollo:</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Etapa de Desarrollo</th>
+<th style="text-align: left;">Dosis Recomendada</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Plantas jóvenes</td>
+<td style="text-align: left;">1/2 L de biol diluido en 20L de agua</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Plantas en desarrollo</td>
+<td style="text-align: left;">1 L de biol diluido en 20L de agua</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Plantas maduras</td>
+<td style="text-align: left;">2 L de biol diluido en 20L de agua</td>
+</tr>
+</tbody>
+</table>
+<div class="vembedr" align="center">
+<div>
+<iframe src="https://www.youtube.com/embed/fOp7dGo6G-4" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
+</div>
+</div>
+</section>
+</section>
+<section id="caldos-simbióticos-o-trofobióticos" class="level1">
+<h1>Caldos Simbióticos o Trofobióticos</h1>
+<div style="margin: 20px 0;">
+<audio controls="" style="width: 100%; max-width: 500px;" controlslist="nodownload" oncontextmenu="return false;">
+<source src="audio/au4.wav" type="audio/wav">
+</audio>
+</div>
+<ul>
+<li>Se preparan en <strong>forma líquida</strong>.</li>
+<li>Ricos en <strong>microorganismos importantes</strong> para mejorar la vida del suelo y las plantas.</li>
+</ul>
+<section id="función-del-caldo-simbiótico-o-trofobiótico" class="level2">
+<h2 class="anchored" data-anchor-id="función-del-caldo-simbiótico-o-trofobiótico">Función del Caldo Simbiótico o Trofobiótico</h2>
+<ul>
+<li>Proporcionan una cantidad considerable de <strong>elementos fertilizantes asimilables</strong> para el desarrollo de las plantas.</li>
+<li>Contienen diversos tipos de <strong>microorganismos</strong> según análisis de laboratorio: actinomicetos, bacterias, levaduras y hongos.</li>
+<li>Además, aportan <strong>elementos menores</strong> como boro, cobre y zinc.</li>
+</ul>
+</section>
+<section id="materiales-necesarios-para-la-preparación" class="level2">
+<h2 class="anchored" data-anchor-id="materiales-necesarios-para-la-preparación">Materiales Necesarios para la Preparación:</h2>
+<ul>
+<li>Bidón con capacidad de 200 litros (con tapa roscada o ballesta).</li>
+<li>Saco de yute o rafia.</li>
+<li>Varios cubos para disolver los minerales.</li>
+<li>Palos para remover los minerales (preferentemente de madera).</li>
+</ul>
+</section>
+<section id="componentes-orgánicos-y-minerales" class="level2">
+<h2 class="anchored" data-anchor-id="componentes-orgánicos-y-minerales">Componentes Orgánicos y Minerales:</h2>
+<ul>
+<li>12 kg de estiércol fresco de ganado.</li>
+<li>40 litros de microorganismos efectivos, disueltos o activados.</li>
+<li>4 litros de melaza de caña de azúcar.</li>
+<li>Sulfato de Magnesio – 2 kg.</li>
+<li>Sulfato de Zinc - 2 kg.</li>
+<li>1/3 kg de Sulfato de Manganeso.</li>
+<li>1/3 kg de Sulfato Ferroso o Hierro.</li>
+<li>Sulfato de Potasio o Nitrato de Potasio - 2 kg.</li>
+<li>Cloruro de Calcio, Nitrato de Calcio o Harina de Huesos - 2 kg.</li>
+<li>Fosfato Mono Amónico – 2 kg.</li>
+<li>Bórax - 5 kg.</li>
+<li>Ceniza - 5 kg.</li>
+<li>Agua para completar el bidón.</li>
+</ul>
+</section>
+<section id="elaboración-del-caldo-trofobiótico" class="level2">
+<h2 class="anchored" data-anchor-id="elaboración-del-caldo-trofobiótico">Elaboración del Caldo Trofobiótico:</h2>
+<ol type="1">
+<li><strong>Estiércol:</strong> Poner 12 kg de estiércol de ganado en un saco de yute o rafia, atar y meter al barril.</li>
+<li><strong>Sales:</strong> Diluir cada una de las sales en 12 litros de agua a temperatura ambiente, removiendo por 5 minutos. Verter en el bidón mientras se remueve la mezcla por otros 2 minutos cada vez que se añada un elemento.</li>
+<li><strong>Microorganismos:</strong> Incorporar los microorganismos al bidón.</li>
+<li><strong>Melaza:</strong> Mezclar la melaza de caña en 12 litros de agua (tibia para mejor disolución).</li>
+<li><strong>Ceniza:</strong> Mezclar la ceniza en 20 litros de agua y vaciar en el bidón.</li>
+<li><strong>Llenado Final:</strong> Terminar de llenar con agua el bidón y remover durante cinco minutos.</li>
+<li><strong>Sellado:</strong> Cerrar el bidón con su tapa o cacho de plástico.</li>
+<li><strong>Sellado Adicional:</strong> Atar el plástico con un cordel o goma elástica.</li>
+</ol>
+<ul>
+<li><strong>Nota:</strong> El orden de incorporación de los materiales no altera el producto final.</li>
+</ul>
+</section>
+<section id="almacenaje-y-conservación-del-caldo-trofobiótico" class="level2">
+<h2 class="anchored" data-anchor-id="almacenaje-y-conservación-del-caldo-trofobiótico">Almacenaje y Conservación del Caldo Trofobiótico:</h2>
+<ul>
+<li><strong>Condiciones estables:</strong> Mover el producto 5 minutos, dos veces al día (mañana y tarde) durante aproximadamente 21 días, hasta que el fertilizante esté listo.</li>
+<li><strong>Filtrado:</strong> Colar el caldo con una tela o malla para que quede totalmente limpio.</li>
+<li><strong>Envasado:</strong> En recipientes plásticos, preferentemente diseñados para biofertilizantes, o cualquier otro plástico.</li>
+<li><strong>Caducidad:</strong> Varios meses. Se recomienda calcular las dosis para evitar excedentes.</li>
+<li><strong>Recomendación:</strong> Poner la fecha de elaboración en el envase y guardar en un lugar fresco, con sombra y alejado del alcance de los niños.</li>
+</ul>
+</section>
+<section id="aplicación-del-caldo" class="level2">
+<h2 class="anchored" data-anchor-id="aplicación-del-caldo">Aplicación del Caldo:</h2>
+<ul>
+<li><strong>Dosis general (pulverización):</strong> 200 a 300 cm³ de producto fertilizante en una bomba de pulverizar de 15 a 18 litros.</li>
+<li><strong>Frecuencia:</strong> Aplicación cada 6 días durante el ciclo del cultivo, mínimo 5 aplicaciones.
+<ul>
+<li><strong>Nota:</strong> Iniciar con dosis bajas e ir aumentando.</li>
+</ul></li>
+<li><strong>Hortalizas:</strong> 1 litro de producto en 30 litros de agua (sin cloro).</li>
+<li><strong>Árboles (más de un año):</strong> 1 litro de producto en 10 litros de agua (sin cloro).</li>
+<li><strong>Frutales tropicales:</strong> Aplicar antes de la floración. Mezclar 20 litros de producto en 10 litros de agua.</li>
+<li><strong>Recomendación:</strong> Aplicar en la época de lluvias y en horas de menor intensidad solar.</li>
+</ul>
+<div class="vembedr" align="center">
+<div>
+<iframe src="https://www.youtube.com/embed/9ocq5G2wCU4" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
+</div>
+</div>
+</section>
+<section id="sustratos" class="level1">
+<h1>Sustratos</h1>
+<div style="margin: 20px 0;">
+<audio controls="" style="width: 100%; max-width: 500px;" controlslist="nodownload" oncontextmenu="return false;">
+<source src="audio/au5.wav" type="audio/wav">
+</audio>
+</div>
+<section id="qué-es-y-para-qué-sirve-un-sustrato" class="level2">
+<h2 class="anchored" data-anchor-id="qué-es-y-para-qué-sirve-un-sustrato">¿Qué es y para qué sirve un sustrato?</h2>
+<p>Los sustratos son medios que sirven para:</p>
+<ul>
+<li><strong>Retención de agua y nutrientes.</strong></li>
+<li><strong>Intercambio de gases y nutrientes.</strong></li>
+<li><strong>Anclaje</strong> para el sistema radicular de la planta.</li>
+<li>Sus características físicas dependen de los <strong>componentes usados y su proporción</strong> en la mezcla.</li>
+</ul>
+</section>
+<section id="componentes-del-sustrato" class="level2">
+<h2 class="anchored" data-anchor-id="componentes-del-sustrato">Componentes del Sustrato</h2>
+<p>Pueden ser orgánicos o inorgánicos:</p>
+<ul>
+<li><p><strong>Orgánicos:</strong> Turba de musgo, corteza de árboles, coco en trozos, cáscaras de arroz, fibra de árboles, etc.</p></li>
+<li><p><strong>Inorgánicos:</strong> Perlita, piedra pómez, vermiculita, arena, hidrogel, etc.</p></li>
+<li><p><strong>Capacidad de retención de agua:</strong> Varía entre componentes; algunos retienen agua en superficie, otros dentro de su estructura, y algunos como la perlita retienen muy poca agua.</p></li>
+</ul>
+</section>
+<section id="características-físicas-de-los-sustratos" class="level2">
+<h2 class="anchored" data-anchor-id="características-físicas-de-los-sustratos">Características Físicas de los Sustratos</h2>
+<p>Las tres medidas más comunes para la caracterización física son:</p>
+<ul>
+<li><p><strong>Densidad Aparente:</strong> Peso por volumen.</p></li>
+<li><p><strong>Capacidad de Retención de Agua (CRA):</strong> Porcentaje de volumen de agua retenida después de saturación y drenaje libre.</p></li>
+<li><p><strong>Aireación:</strong> Volumen del espacio poroso ocupado por aire después del drenaje.</p></li>
+<li><p>Los sustratos envasados (a base de turba de musgo esfagnácea) suelen tener baja densidad aparente y alta CRA.</p></li>
+<li><p>Los sustratos a base de corteza son más pesados, ideales para drenaje y estabilidad.</p></li>
+<li><p>Ambos suelen tener buena aireación (entre 10% y 18% por volumen).</p></li>
+</ul>
+</section>
+<section id="características-químicas-de-los-sustratos" class="level2">
+<h2 class="anchored" data-anchor-id="características-químicas-de-los-sustratos">Características Químicas de los Sustratos</h2>
+<p>Dos medidas químicas importantes:</p>
+<ul>
+<li><strong>pH:</strong> Determina la acidez o basicidad.
+<ul>
+<li><strong>Ideal general:</strong> 5.2 a 6.2 (objetivo 5.8 en saturación).</li>
+<li><strong>Germinación/Enraizamiento:</strong> 5.0 a 6.0 (objetivo 5.6 en saturación); pH tiende a aumentar con fertilizante y alcalinidad del agua.</li>
+</ul></li>
+<li><strong>CE (Conductividad Eléctrica):</strong> Mide la capacidad de la solución del suelo para conducir electricidad e indica la cantidad de nutrientes disponibles.
+<ul>
+<li><strong>Deseada general:</strong> 1.0 a 2.0 mmhos/cm.</li>
+<li><strong>Germinación/Propagación:</strong> 0.5 a 1.1 mmhos/cm.</li>
+</ul></li>
+</ul>
+</section>
+<section id="mezclas-de-sustratos" class="level2">
+<h2 class="anchored" data-anchor-id="mezclas-de-sustratos">Mezclas de Sustratos</h2>
+<ul>
+<li><strong>Composición general:</strong> 75% de compost o turba, 25% de perlita o vermiculita.</li>
+</ul>
+<section id="ejemplos-de-productos-pro-mix-y-sus-características" class="level3">
+<h3 class="anchored" data-anchor-id="ejemplos-de-productos-pro-mix-y-sus-características">Ejemplos de Productos PRO-MIX y sus Características:</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 15%">
+<col style="width: 12%">
+<col style="width: 22%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Producto PRO-MIX</th>
+<th style="text-align: left;">Intervalo de pH</th>
+<th style="text-align: left;">CE* mmhos/cm</th>
+<th style="text-align: left;">Aireación (por volumen)</th>
+<th style="text-align: left;">Densidad Aparente (kg/m3)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Germinación y especialidad</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PRO-MIX FPX (turba/perlita - finas)</td>
+<td style="text-align: left;">4.8-5.8</td>
+<td style="text-align: left;">0.5-0.9</td>
+<td style="text-align: left;">10-14%</td>
+<td style="text-align: left;">160.2-224.3 kg/m3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Uso general</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PRO-MIX BX (turba/perlita/vermiculita)</td>
+<td style="text-align: left;">5.2-6.2</td>
+<td style="text-align: left;">1.0-1.8</td>
+<td style="text-align: left;">12-17%</td>
+<td style="text-align: left;">128.1-160.2 kg/m3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PRO-MIX BRK (turba/trozos de coco/perlita)</td>
+<td style="text-align: left;">5.2-6.2</td>
+<td style="text-align: left;">1.5-2.5</td>
+<td style="text-align: left;">11-17%</td>
+<td style="text-align: left;">224.3-304.4 kg/m3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PRO-MIX BRK20 (turba/trozos de coco/perlita)</td>
+<td style="text-align: left;">5.2-6.2</td>
+<td style="text-align: left;">1.5-2.5</td>
+<td style="text-align: left;">12-18%</td>
+<td style="text-align: left;">176.2-240.3 kg/m3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PRO-MIX BK25 (turba/trozos de coco/perlita)</td>
+<td style="text-align: left;">5.2-6.5</td>
+<td style="text-align: left;">1.5-2.5</td>
+<td style="text-align: left;">15-20%</td>
+<td style="text-align: left;">240.3-272.3 kg/m3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PRO-MIX BK55 (turba/trozos de coco/perlita)</td>
+<td style="text-align: left;">5.2-6.2</td>
+<td style="text-align: left;">1.5-2.5</td>
+<td style="text-align: left;">20-25%</td>
+<td style="text-align: left;">288.3-320.4 kg/m3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PRO-MIX BK25V (turba/trozos de coco/perlita)</td>
+<td style="text-align: left;">5.2-6.2</td>
+<td style="text-align: left;">1.5-2.5</td>
+<td style="text-align: left;">15-20%</td>
+<td style="text-align: left;">240.3-272.3 kg/m3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PRO-MIX BK45V (turba/trozos de coco/perlita)</td>
+<td style="text-align: left;">5.2-6.2</td>
+<td style="text-align: left;">1.5-2.5</td>
+<td style="text-align: left;">20-25%</td>
+<td style="text-align: left;">288.3-320.4 kg/m3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PRO-MIX HP (turba/perlita)</td>
+<td style="text-align: left;">5.2-6.2</td>
+<td style="text-align: left;">1.0-1.8</td>
+<td style="text-align: left;">14-20%</td>
+<td style="text-align: left;">128.1-160.2 kg/m3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PRO-MIX HPCC (turba/trozos de coco/perlita)</td>
+<td style="text-align: left;">5.2-6.2</td>
+<td style="text-align: left;">1.0-2.0</td>
+<td style="text-align: left;">14-20%</td>
+<td style="text-align: left;">128.1-160.2 kg/m3</td>
+</tr>
+</tbody>
+</table>
+<div class="vembedr" align="center">
+<div>
+<iframe src="https://www.youtube.com/embed/p-yfvf_e7Ik" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
+</div>
+</div>
+
+
+</section>
+</section>
+</section></section></section></main></div>
+
+
+
+
+
+
+ <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+ <!-- /content -->
+
+
+
+
+</body></html>
