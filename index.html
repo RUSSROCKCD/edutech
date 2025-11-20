@@ -37,14 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9dd7bf4d922e1fb5065d7fea8f52941c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-24772959a0e306aba8d7698078628ce7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-9dd7bf4d922e1fb5065d7fea8f52941c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9dd7bf4d922e1fb5065d7fea8f52941c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -83,169 +79,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -295,7 +129,6 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -305,13 +138,11 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
     <div class="quarto-margin-footer"><div class="margin-footer-item">
 <p><img src=".\img/fondlogo.png" width="150" height="150"></p>
 </div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
-
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -335,8 +166,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Diseñada para proporcionar una visión clara de la misión de CIBS y facilitar el acceso rápido a todas las secciones clave. Esta sección está pensada para captar la atención de agricultores, técnicos, socios, ofreciendo una experiencia intuitiva, visualmente atractiva y alineada con los principios de bio-industrialización sostenible.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div id="htmlwidget-46b7a5aedd7c2206c962" style="width:100%;height:500px;" class="langevitour html-widget"></div>
-<script type="application/json" data-for="htmlwidget-46b7a5aedd7c2206c962">{"x":{"X":[[4.992301766027063,1.809068067466582,1.809068067466582,2.121320343559642,2.121320343559642,2.121320343559642,1.603567451474546],[1.664100588675687,1.809068067466582,1.809068067466582,2.121320343559642,4.242640687119285,2.121320343559642,3.207134902949093],[1.664100588675687,3.618136134933164,3.618136134933164,2.121320343559642,2.121320343559642,2.121320343559642,3.207134902949093],[1.664100588675687,3.618136134933164,3.618136134933164,4.242640687119285,2.121320343559642,4.242640687119285,3.207134902949093],[1.664100588675687,1.809068067466582,1.809068067466582,2.121320343559642,2.121320343559642,2.121320343559642,1.603567451474546]],"center":[2.329740824145962,2.532695294453215,2.532695294453215,2.545584412271571,2.545584412271571,2.545584412271571,2.565707922359274],"scale":[4.547588576419475,4.547588576419475,4.547588576419475,4.547588576419475,4.547588576419475,4.547588576419475,4.547588576419475],"colnames":["Análisis de suelo","Abonos orgánicos","Fertilización","Gestión del agua","Sanidad Vegetal","Cosecha y Postcosecha","Recursos"],"rownames":["Vainilla","Palta","Pitahaya","Miel","Café"],"group":[0,1,1,2,0],"levels":["low","medium","high"],"extraAxes":null,"extraAxesNames":[],"lineFrom":[],"lineTo":[],"lineColors":[],"axisColors":[],"levelColors":["#FFFFCC","#FFCC00","#666600"],"colorVariation":0.1,"pointSize":6,"crosstalkGroup":null,"crosstalkKey":null,"crosstalkWantFilter":true,"state":"{\n    \"axesOn\": true,\n    \"heatOn\": true,\n    \"guideType\": \"local\",\n    \"labelAttractionOn\": true,\n    \"damping\": -2.59,\n    \"heat\": 2.05,\n    \"guide\": -2,\n    \"labelAttraction\": -0.56,\n    \"labelInactive\": [\n        \"fluorescence\",\n        \"ecotoxicity\",\n        \"smell\",\n        \"complexity\",\n        \"cleaning-clothes\",\n        \"cleaning-surface\",\n        \"colorhue\"\n    ],\n    \"labelPos\": {},\n    \"projection\": [\n        [\n            0.49966457845166484,\n            0.314906763701451,\n            0.06587308043381697,\n            -0.2793800688196538,\n            -3.753356221065898e-52,\n            -0.23236415343494143,\n            0.19410767560517234,\n            -0.1285605562206543,\n            -1.6489983583104964e-51,\n            -8.408242997351756e-48,\n            0.1464703521916647,\n            0.18336575757590418,\n            0.2699007288867679,\n            -6.597260689827245e-47,\n            -0.38594535564271215,\n            -0.41153880140930776,\n            1.7139985937625593e-25,\n            -3.668278972961867e-46,\n            -0.09558586334759378,\n            0.033697362895731234,\n            0.015979622295406365,\n            -1.4200669913659788e-56,\n            0.06172000032138229\n        ],\n        [\n            0.15066619449919066,\n            -0.3072798657284068,\n            0.14264641817335527,\n            0.03895182014726703,\n            2.6662865415382193e-52,\n            -0.289036433453587,\n            0.13242022910003706,\n            0.0794447655447277,\n            1.1714051146036008e-51,\n            5.972993675946225e-48,\n            -0.04440583115317507,\n            -0.5949550418770497,\n            -0.1630376370436355,\n            4.686537322887235e-47,\n            -0.3209827752245519,\n            -0.002329079909824422,\n            -1.2175706235010028e-25,\n            2.605846804924196e-46,\n            0.3153942366295783,\n            -0.16348702406224655,\n            0.3683664866969888,\n            1.0087783757731135e-56,\n            0.07854598577974181\n        ]\n    ]\n","enableControls":true},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-8d46419adb8dca831341" style="width:100%;height:500px;" class="langevitour html-widget"></div>
+<script type="application/json" data-for="htmlwidget-8d46419adb8dca831341">{"x":{"X":[[4.992301766027063,1.809068067466582,1.809068067466582,2.121320343559642,2.121320343559642,2.121320343559642,1.603567451474546],[1.664100588675687,1.809068067466582,1.809068067466582,2.121320343559642,4.242640687119285,2.121320343559642,3.207134902949093],[1.664100588675687,3.618136134933164,3.618136134933164,2.121320343559642,2.121320343559642,2.121320343559642,3.207134902949093],[1.664100588675687,3.618136134933164,3.618136134933164,4.242640687119285,2.121320343559642,4.242640687119285,3.207134902949093],[1.664100588675687,1.809068067466582,1.809068067466582,2.121320343559642,2.121320343559642,2.121320343559642,1.603567451474546]],"center":[2.329740824145962,2.532695294453215,2.532695294453215,2.545584412271571,2.545584412271571,2.545584412271571,2.565707922359274],"scale":[4.547588576419475,4.547588576419475,4.547588576419475,4.547588576419475,4.547588576419475,4.547588576419475,4.547588576419475],"colnames":["Análisis de suelo","Abonos orgánicos","Fertilización","Gestión del agua","Sanidad Vegetal","Cosecha y Postcosecha","Recursos"],"rownames":["Vainilla","Palta","Pitahaya","Miel","Café"],"group":[0,1,1,2,0],"levels":["low","medium","high"],"extraAxes":null,"extraAxesNames":[],"lineFrom":[],"lineTo":[],"lineColors":[],"axisColors":[],"levelColors":["#FFFFCC","#FFCC00","#666600"],"colorVariation":0.1,"pointSize":6,"crosstalkGroup":null,"crosstalkKey":null,"crosstalkWantFilter":true,"state":"{\n    \"axesOn\": true,\n    \"heatOn\": true,\n    \"guideType\": \"local\",\n    \"labelAttractionOn\": true,\n    \"damping\": -2.59,\n    \"heat\": 2.05,\n    \"guide\": -2,\n    \"labelAttraction\": -0.56,\n    \"labelInactive\": [\n        \"fluorescence\",\n        \"ecotoxicity\",\n        \"smell\",\n        \"complexity\",\n        \"cleaning-clothes\",\n        \"cleaning-surface\",\n        \"colorhue\"\n    ],\n    \"labelPos\": {},\n    \"projection\": [\n        [\n            0.49966457845166484,\n            0.314906763701451,\n            0.06587308043381697,\n            -0.2793800688196538,\n            -3.753356221065898e-52,\n            -0.23236415343494143,\n            0.19410767560517234,\n            -0.1285605562206543,\n            -1.6489983583104964e-51,\n            -8.408242997351756e-48,\n            0.1464703521916647,\n            0.18336575757590418,\n            0.2699007288867679,\n            -6.597260689827245e-47,\n            -0.38594535564271215,\n            -0.41153880140930776,\n            1.7139985937625593e-25,\n            -3.668278972961867e-46,\n            -0.09558586334759378,\n            0.033697362895731234,\n            0.015979622295406365,\n            -1.4200669913659788e-56,\n            0.06172000032138229\n        ],\n        [\n            0.15066619449919066,\n            -0.3072798657284068,\n            0.14264641817335527,\n            0.03895182014726703,\n            2.6662865415382193e-52,\n            -0.289036433453587,\n            0.13242022910003706,\n            0.0794447655447277,\n            1.1714051146036008e-51,\n            5.972993675946225e-48,\n            -0.04440583115317507,\n            -0.5949550418770497,\n            -0.1630376370436355,\n            4.686537322887235e-47,\n            -0.3209827752245519,\n            -0.002329079909824422,\n            -1.2175706235010028e-25,\n            2.605846804924196e-46,\n            0.3153942366295783,\n            -0.16348702406224655,\n            0.3683664866969888,\n            1.0087783757731135e-56,\n            0.07854598577974181\n        ]\n    ]\n","enableControls":true},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <p>El Centro de Innovación y Biotecnología Sostenible (CIBS) Fundo San Rocco lidera la agricultura del futuro en la Amazonía peruana, transformando bioactivos como vainilla, pitahaya; en productos para mercados globales. Con tecnologías como extracción con CO2 supercrítico, liofilización y el ecosistema digital, promovemos una agricultura sostenible, rentable y resiliente al clima, basada en la economía circular.</p>
@@ -347,19 +178,6 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {

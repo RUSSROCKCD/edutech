@@ -1,21 +1,229 @@
-/* styles.css */
+/* =================================================================== */
+/*      PALETA DE COLORES BASADA EN EL LOGO "FUNDO SAN ROCCO"      */
+/* =================================================================== */
+:root {
+  --verde-principal: #405C36;   /* Verde oscuro y natural del logo */
+  --marron-texto: #6B4F2E;      /* Marrón del tronco para texto principal */
+  --dorado-acento: #8C714B;     /* Dorado/Ocre del texto del logo para enlaces y acentos */
+  --crema-fondo: #F5EEDF;       /* Crema de las hojas claras para el fondo */
+  --verde-claro-hojas: #93A867; /* Verde claro de las hojas para detalles sutiles */
+  --blanco-puro: #FFFFFF;
+}
 
-/* Color del texto general (párrafos, listas, etc.) a negro.
-   Esto sobrescribe el color azul que habías puesto previamente para el body. */
+/* =================================================================== */
+/*                      ESTILOS GENERALES Y NAVBAR                     */
+/* =================================================================== */
 body {
-  color: #31C950;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--crema-fondo); /* Fondo crema, extraído del logo */
+  color: var(--marron-texto); /* Texto principal en marrón tronco para mejor legibilidad */
 }
 
-/* Color para los títulos principales (H1) a negro */
-h1 {
-  color: #31C950;
+.navbar {
+  background-color: var(--verde-principal) !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
 }
 
-/* Color para los subtítulos (H2, H3, H4, H5, H6) a verde oscuro */
-h2, h3, h4, h5, h6 {
-  color: #31C950; /* Este es un código hexadecimal para un verde oscuro profundo (DarkGreen) */
-  /* También podrías probar con:
-     color: #228B22;  ForestGreen
-     color: #0A5C36;  Un verde más apagado y oscuro
-  */
+.navbar-brand,
+.navbar-nav .nav-link,
+.navbar-nav .nav-link.active {
+  color: var(--crema-fondo) !important; /* Texto del navbar en color crema para alto contraste */
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--blanco-puro) !important; /* Blanco al pasar el ratón */
+}
+
+/* =================================================================== */
+/*                        SECCIÓN PRINCIPAL Y FOTO                     */
+/* =================================================================== */
+
+/* Estilo para la foto de perfil - TAMAÑO REDUCIDO EN 30% */
+.profile-photo {
+  width: 210px !important;  /* Tamaño reducido (300px * 0.7) */
+  height: 210px !important; /* Tamaño reducido */
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  margin: 2rem auto !important;
+  display: block !important;
+  border: 4px solid var(--crema-fondo); /* Borde sutil color fondo */
+  /* Sombra más suave y acorde al verde del logo */
+  box-shadow: 0 6px 15px rgba(64, 92, 54, 0.25) !important;
+}
+
+.hero-section {
+  text-align: center !important;
+  padding: 3rem 0 !important;
+}
+
+/* =================================================================== */
+/*                    TÍTULOS, TEXTOS Y ENLACES                      */
+/* =================================================================== */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--verde-principal) !important; /* Títulos en el verde principal del logo */
+  margin-bottom: 0.5rem !important;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem !important;
+  color: var(--verde-principal) !important;
+  margin-bottom: 2rem !important;
+}
+
+p, li, dt, dd {
+  color: var(--marron-texto) !important; /* Párrafos y listas en marrón tronco */
+}
+
+a {
+  color: var(--dorado-acento) !important; /* Enlaces con el color dorado del texto del logo */
+  text-decoration: none !important;
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--verde-principal) !important; /* Al pasar el ratón, los enlaces se vuelven verde oscuro */
+  text-decoration: underline !important;
+}
+
+/* =================================================================== */
+/*                      COMPONENTES Y OTROS ESTILOS                    */
+/* =================================================================== */
+
+/* Botón flotante para volver arriba */
+.back-to-top {
+  display: none !important;
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  z-index: 99 !important;
+  background-color: var(--dorado-acento) !important;
+  color: var(--crema-fondo) !important;
+  border: none !important;
+  border-radius: 50% !important;
+  width: 50px !important;
+  height: 50px !important;
+  font-size: 18px !important;
+  cursor: pointer !important;
+  box-shadow: 0 4px 15px rgba(140, 113, 75, 0.3) !important;
+  transition: all 0.3s ease !important;
+}
+
+.back-to-top:hover {
+  background-color: var(--verde-principal) !important; /* Cambia a verde al pasar el ratón */
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(64, 92, 54, 0.4) !important;
+}
+
+/* Galería de imágenes */
+.gallery-image {
+  width: 100% !important;
+  height: auto !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+}
+
+/* Pestañas (Panel tabs) */
+.panel-tabset .nav-tabs {
+  border-bottom: 2px solid var(--dorado-acento) !important;
+}
+
+.panel-tabset .nav-tabs .nav-link {
+  color: var(--marron-texto) !important;
+  border: none !important;
+  border-bottom: 2px solid transparent !important;
+}
+
+.panel-tabset .nav-tabs .nav-link.active {
+  background-color: transparent !important;
+  border-bottom: 2px solid var(--dorado-acento) !important;
+  color: var(--verde-principal) !important;
+  font-weight: bold !important;
+}
+
+/* Bloques de código y Callouts */
+pre {
+  background-color: #FAF8F2 !important; /* Un crema ligeramente más claro para destacar */
+  border: 1px solid var(--verde-claro-hojas) !important; /* Borde con el verde claro de las hojas */
+  border-radius: 6px !important;
+  padding: 1rem !important;
+  color: var(--marron-texto) !important;
+}
+
+.callout-tip {
+  border-left: 4px solid var(--dorado-acento) !important;
+}
+
+/* =================================================================== */
+/*              ESTILOS PARA LAS CAJAS (CARDS/LISTINGS)                */
+/*         Agrega esto al final de tu CSS para reemplazar el azul      */
+/* =================================================================== */
+
+:root {
+  /* Agregamos un color específico para el fondo de las tarjetas.
+     Usamos un blanco 'hueso' o 'perla' para que destaque sobre el fondo crema
+     pero mantenga la calidez, eliminando el azul frío. */
+  --color-caja: #FDFBF7; 
+  --borde-caja: #E6DEC8; /* Un borde suave color arena */
+}
+
+/* Selector general para las tarjetas (ajustado para Quarto/Bootstrap/Grid) */
+.card, .quarto-grid-item, .listing-item {
+  background-color: var(--color-caja) !important; /* Reemplaza el azul por blanco perla */
+  border: 1px solid var(--borde-caja) !important; /* Borde sutil */
+  border-radius: 8px !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  overflow: hidden !important; /* Para que la imagen no se salga de las esquinas */
+}
+
+/* Efecto al pasar el mouse por encima de la caja */
+.card:hover, .quarto-grid-item:hover, .listing-item:hover {
+  transform: translateY(-5px) !important; /* Se eleva un poco */
+  box-shadow: 0 10px 20px rgba(64, 92, 54, 0.15) !important; /* Sombra verdosa suave */
+  border-color: var(--dorado-acento) !important; /* El borde se pone dorado */
+}
+
+/* Cuerpo de la tarjeta (donde está el texto) */
+.card-body, .listing-item-body {
+  background-color: var(--color-caja) !important;
+  color: var(--marron-texto) !important;
+  padding: 1.5rem !important;
+}
+
+/* Títulos dentro de las cajas (ej: "Abonos Orgánicos 1") */
+.card-title, .listing-item-title, .card h5, .card h4 {
+  color: var(--verde-principal) !important;
+  font-weight: 700 !important;
+  font-size: 1.1rem !important;
+}
+
+.card-title:hover, .listing-item-title:hover {
+  color: var(--dorado-acento) !important; /* Cambia a dorado al pasar el mouse */
+}
+
+/* Subtítulos o categorías (ej: "Primer análisis", "Bibliografía") */
+.card-subtitle, .listing-item-subtitle, .text-muted {
+  color: var(--dorado-acento) !important; /* Usamos el dorado/ocre para resaltar categorías */
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+}
+
+/* Fechas y metadatos al pie de la tarjeta */
+.card-footer, .listing-item-date, .metadata {
+  color: var(--verde-claro-hojas) !important; /* Verde suave para información secundaria */
+  font-size: 0.85rem !important;
+  border-top: 1px solid var(--borde-caja) !important; /* Línea separadora sutil */
+  background-color: transparent !important;
+}
+
+/* Corrección para imágenes dentro de las tarjetas */
+.card-img-top, .listing-item-img {
+  border-bottom: 4px solid var(--verde-principal) !important; /* Una línea verde que separa foto de texto */
 }

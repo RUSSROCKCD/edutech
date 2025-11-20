@@ -9,7 +9,7 @@
 <meta name="author" content="CIBS Fundo San Rocco">
 <meta name="description" content="Primer análisis">
 
-<title>Fertirrigación 4 – CIBS FUNDO SAN ROCCO</title>
+<title>Fertirrigación 6 – CIBS FUNDO SAN ROCCO</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,14 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-07fa2145a13d9de45c16936b888d58c6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-f7802bdbb91bfe76c56dca86b4e4ca4c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-07fa2145a13d9de45c16936b888d58c6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-07fa2145a13d9de45c16936b888d58c6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -108,169 +104,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -320,7 +154,6 @@ window.Quarto = {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -336,10 +169,9 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Fertirrigación 4</h1>
+<h1 class="title">Fertirrigación 6</h1>
   <div class="quarto-categories">
     <div class="quarto-category">AGRONOMÍA</div>
     <div class="quarto-category">ABONOS ORGÁNICOS</div>
@@ -379,43 +211,15 @@ window.Quarto = {
 
 <div style="margin: 20px 0;">
 <audio controls="" style="width: 100%; max-width: 500px;" controlslist="nodownload" oncontextmenu="return false;">
-<source src="audio/au3.wav" type="audio/wav">
+<source src="audio/au5.wav" type="audio/wav">
 </audio>
 </div>
-<section id="potasio-k-en-la-fertirrigación" class="level1">
-<h1>Potasio (K) en la Fertirrigación</h1>
-<p>El Potasio <strong>(K)</strong> es un macronutriente esencial que se encuentra siempre en la planta como el ion catiónico <strong><span class="math inline">\(\text{K}^+\)</span></strong>, sin sufrir modificaciones. Es fundamental para la calidad del fruto (color, licopeno) y el rendimiento.</p>
-<section id="interacción-del-potasio-con-el-suelo-fijación-lenta" class="level2">
-<h2 class="anchored" data-anchor-id="interacción-del-potasio-con-el-suelo-fijación-lenta">1. Interacción del Potasio con el Suelo: Fijación Lenta</h2>
-<p>El <span class="math inline">\(\text{K}^+\)</span> en el suelo se divide en tres partes: en la solución del suelo, en las arcillas (intercambiable) y una parte que se “fija” en el espacio interlaminar de las arcillas (especialmente en la arcilla Illita).</p>
-<ul>
-<li><strong>Movimiento:</strong> El intercambio entre <span class="math inline">\(\text{K}^+\)</span> de la solución y <span class="math inline">\(\text{K}^+\)</span> adsorbido es rápido, pero la <strong>“liberación”</strong> de K fijado es muy <strong>lenta</strong>.</li>
-<li><strong>Impacto en Fertirriego:</strong> La tasa de liberación del <span class="math inline">\(\text{K}^+\)</span> fijado no puede satisfacer la demanda de una planta en crecimiento, especialmente en el riego por goteo, donde el volumen de raíces activas es pequeño. Por lo tanto, se necesita un <strong>suministro continuo</strong> de <span class="math inline">\(\text{K}^+\)</span> a través del goteo.</li>
-</ul>
-</section>
-<section id="movimiento-y-absorción" class="level2">
-<h2 class="anchored" data-anchor-id="movimiento-y-absorción">2. Movimiento y Absorción</h2>
-<ul>
-<li><strong>Movimiento del <span class="math inline">\(\text{K}^+\)</span>:</strong> La distribución exacta del <span class="math inline">\(\text{K}^+\)</span> en el bulbo de mojado es poco importante. A diferencia del P, el <span class="math inline">\(\text{K}^+\)</span> se mueve mejor en el suelo (aunque menos que el Nitrógeno). Las raíces son tan eficientes que si encuentran <span class="math inline">\(\text{K}^+\)</span>, lo absorben fácilmente.</li>
-<li><strong>Demanda:</strong> El Potasio es exportado en grandes cantidades del campo con la cosecha de frutas, hortalizas, tubérculos y hojas verdes, por lo que su suministro continuo es crucial para la <strong>calidad</strong> y el <strong>rendimiento</strong>.</li>
-</ul>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>✅ Clave para el Cultivo y la Calidad
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>El suministro continuo de <span class="math inline">\(\text{K}\)</span> mediante fertirrigación mejora significativamente la <strong>calidad del fruto</strong>. Por ejemplo, aumenta el contenido de <strong>licopeno</strong> (color y calidad) en el tomate.</p>
-</div>
-</div>
-</section>
-<section id="fertilizantes-potásicos-comunes-en-fertirrigación" class="level2">
-<h2 class="anchored" data-anchor-id="fertilizantes-potásicos-comunes-en-fertirrigación">3. Fertilizantes Potásicos Comunes en Fertirrigación</h2>
-<p>Existen cuatro sales solubles principales para el goteo:</p>
+<section id="micronutrientes-en-la-fertirrigación" class="level1">
+<h1>Micronutrientes en la Fertirrigación</h1>
+<p>Los micronutrientes (o “elementos traza”) son requeridos en cantidades pequeñas, pero son esenciales. Su deficiencia se observa primero en las <strong>hojas más jóvenes</strong> o en el ápice, a diferencia de los macronutrientes, que afectan las hojas viejas.</p>
+<section id="absorción-y-disponibilidad-la-regla-del-ph" class="level2">
+<h2 class="anchored" data-anchor-id="absorción-y-disponibilidad-la-regla-del-ph">1. Absorción y Disponibilidad (La Regla del pH)</h2>
+<p>La disponibilidad de casi todos los micronutrientes depende fuertemente del pH del suelo:</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -425,36 +229,48 @@ window.Quarto = {
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Fertilizante</th>
-<th style="text-align: left;">Fórmula Química</th>
-<th style="text-align: left;">Ventaja Clave</th>
-<th style="text-align: left;">Desventaja / Precaución</th>
+<th style="text-align: left;">Micronutriente</th>
+<th style="text-align: left;">Símbolo</th>
+<th style="text-align: left;">Absorción como Ion</th>
+<th style="text-align: left;">Rango de pH ideal</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>Nitrato de Potasio</strong></td>
-<td style="text-align: left;"><span class="math inline">\(\text{KNO}_3\)</span></td>
-<td style="text-align: left;">Óptima relación <span class="math inline">\(\text{K/N}\)</span>. Muy soluble. Ideal para alta calidad.</td>
-<td style="text-align: left;">Puede precipitar en el tanque a bajas temperaturas (noche).</td>
+<td style="text-align: left;"><strong>Hierro</strong></td>
+<td style="text-align: left;"><span class="math inline">\(\text{Fe}\)</span></td>
+<td style="text-align: left;">Catión <span class="math inline">\((\text{Fe}^{2+})\)</span></td>
+<td style="text-align: left;">4.0 - 6.5</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Sulfato de Potasio</strong></td>
-<td style="text-align: left;"><span class="math inline">\(\text{K}_2\text{SO}_4\)</span></td>
-<td style="text-align: left;">Apto para suelos/aguas con poco Calcio (Ca).</td>
-<td style="text-align: left;">Requiere fuente adicional de N. Puede requerir cuidado en aguas duras (por Sulfato).</td>
+<td style="text-align: left;"><strong>Manganeso</strong></td>
+<td style="text-align: left;"><span class="math inline">\(\text{Mn}\)</span></td>
+<td style="text-align: left;">Catión <span class="math inline">\((\text{Mn}^{2+})\)</span></td>
+<td style="text-align: left;">5.0 - 6.5</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Fosfato Monopotásico</strong></td>
-<td style="text-align: left;"><span class="math inline">\(\text{KH}_2\text{PO}_4\)</span></td>
-<td style="text-align: left;">Principalmente una fuente de <span class="math inline">\(\text{P}\)</span> (Fósforo), pero aporta <span class="math inline">\(\text{K}\)</span>. Bajo residuo salino.</td>
-<td style="text-align: left;">La cantidad de <span class="math inline">\(\text{P}\)</span> aportada es baja.</td>
+<td style="text-align: left;"><strong>Zinc</strong></td>
+<td style="text-align: left;"><span class="math inline">\(\text{Zn}\)</span></td>
+<td style="text-align: left;">Catión <span class="math inline">\((\text{Zn}^{2+})\)</span></td>
+<td style="text-align: left;">5.0 - 7.0</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Cloruro de Potasio</strong></td>
-<td style="text-align: left;"><span class="math inline">\(\text{KCl}\)</span></td>
-<td style="text-align: left;">Fuente de <span class="math inline">\(\text{K}\)</span> más barata y abundante.</td>
-<td style="text-align: left;">Requiere fuente adicional de N. El Cloro <strong>(Cl)</strong> puede afectar la calidad en cultivos sensibles (ej. tabaco) por ser un anión acompañante.</td>
+<td style="text-align: left;"><strong>Cobre</strong></td>
+<td style="text-align: left;"><span class="math inline">\(\text{Cu}\)</span></td>
+<td style="text-align: left;">Catión <span class="math inline">\((\text{Cu}^{2+})\)</span></td>
+<td style="text-align: left;">5.0 - 7.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Boro</strong></td>
+<td style="text-align: left;"><span class="math inline">\(\text{B}\)</span></td>
+<td style="text-align: left;">Ácido Bórico <span class="math inline">\((\text{B}(\text{OH})_3)\)</span></td>
+<td style="text-align: left;">5.0 - 7.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Molibdeno</strong></td>
+<td style="text-align: left;"><span class="math inline">\(\text{Mo}\)</span></td>
+<td style="text-align: left;">Anión <span class="math inline">\((\text{MoO}_4^{2-})\)</span></td>
+<td style="text-align: left;"><strong>7.0 - 8.5</strong> (Único que prefiere pH alcalino)</td>
 </tr>
 </tbody>
 </table>
@@ -464,15 +280,61 @@ window.Quarto = {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>⚙️ Uso Práctico del <span class="math inline">\(\text{KNO}_3\)</span>
+<span class="screen-reader-only">Nota</span>La Regla del pH y Micronutrientes
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>El <strong>Nitrato de Potasio</strong> <span class="math inline">\((\text{KNO}_3)\)</span> satisface plenamente las necesidades de <strong><span class="math inline">\(\text{K}\)</span></strong> y parcialmente las de <strong><span class="math inline">\(\text{N}\)</span></strong> con una sola aplicación, siendo la opción preferida para cultivos de alto valor y calidad <em>premium</em>.</p>
+<p>La disponibilidad de los micronutrientes metálicos <strong>(<span class="math inline">\(\text{Fe}, \text{Mn}, \text{Zn}, \text{Cu}\)</span>)</strong> <strong>disminuye</strong> drásticamente a medida que el pH del suelo aumenta por encima de 7.0. La única excepción es el <strong>Molibdeno <span class="math inline">\((\text{Mo})\)</span></strong>, que se absorbe mejor en suelos neutros a alcalinos (pH 7.0-8.5).</p>
 </div>
 </div>
+</section>
+<section id="estrategia-de-aplicación-quelatos" class="level2">
+<h2 class="anchored" data-anchor-id="estrategia-de-aplicación-quelatos">2. Estrategia de Aplicación: Quelatos</h2>
+<ul>
+<li>Los micronutrientes metálicos <span class="math inline">\((\text{Fe}, \text{Cu}, \text{Zn}, \text{Mn})\)</span> reaccionan muy rápido con el suelo y se vuelven indisponibles si se aplican como sales simples.</li>
+<li><strong>Solución:</strong> Se deben aplicar en forma de <strong>Quelatos</strong> (principalmente <strong>EDTA</strong>). Un quelato es un compuesto que “envuelve” al elemento metálico para protegerlo de reaccionar con el suelo, manteniendo su disponibilidad para que la raíz lo absorba.</li>
+</ul>
+</section>
+<section id="micronutrientes-específicos" class="level2">
+<h2 class="anchored" data-anchor-id="micronutrientes-específicos">3. Micronutrientes Específicos</h2>
+<section id="boro-b" class="level3">
+<h3 class="anchored" data-anchor-id="boro-b">Boro (B)</h3>
+<ul>
+<li>Es crucial para el crecimiento de la raíz, la germinación del polen y la elongación del tubo polínico.</li>
+<li>Su absorción es como ácido bórico <strong><span class="math inline">\(\text{B}(\text{OH})_3\)</span></strong>.</li>
+<li><strong>Absorción por pH:</strong> La absorción de B disminuye rápida y marcadamente a partir de un pH de 8.0.</li>
+</ul>
+</section>
+<section id="hierro-fe" class="level3">
+<h3 class="anchored" data-anchor-id="hierro-fe">Hierro (Fe)</h3>
+<ul>
+<li>La deficiencia de <span class="math inline">\(\text{Fe}\)</span> (clorosis o amarillamiento) se observa en las hojas más jóvenes, especialmente en suelos calcáreos <span class="math inline">\((\text{CaCO}_3)\)</span> con <span class="math inline">\(\text{pH} &gt; 8.0\)</span>.</li>
+<li><strong>Estrategia de la Raíz:</strong> Las plantas absorben <span class="math inline">\(\text{Fe}\)</span> principalmente bajando el pH alrededor de la raíz (cuando absorben N-amoniacal), lo que hace que el <span class="math inline">\(\text{Fe}\)</span> insoluble <span class="math inline">\([\text{Fe}(\text{OH})_3]\)</span> se reduzca a <span class="math inline">\(\text{Fe}^{2+}\)</span> absorbible.</li>
+</ul>
+</section>
+<section id="zinc-zn" class="level3">
+<h3 class="anchored" data-anchor-id="zinc-zn">Zinc (Zn)</h3>
+<ul>
+<li>Deficiencia de <span class="math inline">\(\text{Zn}\)</span> es común en suelos con <strong>pH alto</strong> <span class="math inline">\((&gt;\text{7.5})\)</span>, alto <span class="math inline">\(\text{CaCO}_3\)</span> o baja materia orgánica.</li>
+<li>Síntomas incluyen <strong>“arrosetado”</strong> (tallos y ramas cortos) y <strong>“hojas pequeñas”</strong>.</li>
+</ul>
+</section>
+<section id="cobre-cu" class="level3">
+<h3 class="anchored" data-anchor-id="cobre-cu">Cobre (Cu)</h3>
+<ul>
+<li>Esencial para la fotosíntesis.</li>
+<li>Su disponibilidad se limita si hay mucha materia orgánica en el suelo. Es crucial controlar su nivel en fertirrigación para evitar la <strong>toxicidad</strong> (“shock de cobre”).</li>
+</ul>
+</section>
+<section id="cloro-cl" class="level3">
+<h3 class="anchored" data-anchor-id="cloro-cl">Cloro (Cl)</h3>
+<ul>
+<li>Es esencial en microcantidades para la fotosíntesis (partición del agua).</li>
+<li>Rara vez hay deficiencia. El riesgo mayor es la <strong>toxicidad</strong> por acumulación en hojas debido al uso de aguas salinas, causando necrosis en los bordes.</li>
+</ul>
 
 
+</section>
 </section>
 </section>
 </main></div>
@@ -480,19 +342,6 @@ window.Quarto = {
  <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
