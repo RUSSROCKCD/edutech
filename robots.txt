@@ -1,1 +1,1 @@
-Sitemap: https://0439d97a-9557-4ec0-9035-81ecaa1a54e0.netlify.app/sitemap.xml
+Sitemap: https://RUSSROCKCD.github.io/edutech/sitemap.xml

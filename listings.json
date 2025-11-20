@@ -11,17 +11,6 @@
     ]
   },
   {
-    "listing": "/agua.html",
-    "items": [
-      "/Agua/agua0.html",
-      "/Agua/agua1.html",
-      "/Agua/agua2.html",
-      "/Agua/agua3.html",
-      "/Agua/agua4.html",
-      "/Agua/agua5.html"
-    ]
-  },
-  {
     "listing": "/abonos.html",
     "items": [
       "/abono/abono0.html",
@@ -31,9 +20,39 @@
     ]
   },
   {
+    "listing": "/agua.html",
+    "items": [
+      "/agua/agua0.html",
+      "/agua/agua1.html",
+      "/agua/agua2.html",
+      "/agua/agua3.html",
+      "/agua/agua4.html",
+      "/agua/agua5.html"
+    ]
+  },
+  {
     "listing": "/recursos.html",
     "items": [
-      "/recursos/Analisis.html"
+      "/recursos/recursos1.html",
+      "/recursos/recursos.html"
+    ]
+  },
+  {
+    "listing": "/sanidad.html",
+    "items": [
+      "/sanidad/sanidad1.html",
+      "/sanidad/sanidad.html",
+      "/sanidad/sanidad2.html"
+    ]
+  },
+  {
+    "listing": "/sostenibilidad.html",
+    "items": [
+      "/sostenibilidad/sostenibilidad2.html",
+      "/sostenibilidad/sostenibilidad4.html",
+      "/sostenibilidad/sostenibilidad3.html",
+      "/sostenibilidad/sostenibilidad1.html",
+      "/sostenibilidad/sostenibilidad.html"
     ]
   }
 ]
